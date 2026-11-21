@@ -12,10 +12,19 @@ import requests
 from pathlib import Path
 
 APP_VERSION = "0.1"
-
-SCRIPT_DIR = Path(__file__).resolve().parent
-CONFIG_PATH = SCRIPT_DIR / "krpatch_config.json"
+CONFIG_FILENAME = "krpatch_config.json"
 API_URL = "https://retrodb.info/krpatch/api/list"
+
+
+def get_runtime_dir() -> Path:
+    """현재 실행 폴더(작업 디렉터리) 반환"""
+    return Path.cwd().resolve()
+
+
+def get_config_path() -> Path:
+    """실행 폴더 기준 krpatch_config.json 경로 반환"""
+    return get_runtime_dir() / CONFIG_FILENAME
+
 
 DEFAULT_CONSOLE_MAPPING = {
     "FC": ("Nintendo", "FC"), "FAMICOM": ("Nintendo", "FC"),
@@ -83,7 +92,7 @@ class InitialConfigDialog(tk.Toplevel):
 
         ttk.Label(
             container,
-            text="환경설정 파일(krpatch_config.json)이 없어 새로 생성합니다. 발급키와 폴더를 지정해 주세요.",
+            text=f"실행 폴더에 {CONFIG_FILENAME}이 없어 새로 생성합니다. 발급키와 폴더를 지정해 주세요.",
         ).pack(anchor=tk.W, pady=(0, 14))
 
         key_row = ttk.Frame(container)
@@ -107,7 +116,7 @@ class InitialConfigDialog(tk.Toplevel):
 
     def browse_folder(self):
         current = self.base_dir_var.get().strip()
-        initial_dir = current if current and os.path.isdir(current) else str(SCRIPT_DIR)
+        initial_dir = current if current and os.path.isdir(current) else str(get_runtime_dir())
         selected = filedialog.askdirectory(title="최상위 한글패치 폴더 선택", initialdir=initial_dir, parent=self)
         if selected:
             self.base_dir_var.set(selected)
@@ -134,18 +143,20 @@ def prompt_initial_config(parent: tk.Tk, config_data: dict) -> dict:
     return config_data
 
 
-def load_or_create_config(config_path: Path = CONFIG_PATH, parent: tk.Tk | None = None) -> tuple[dict, bool]:
-    """설정 파일을 로드하거나, 없으면 대화상자로 입력받아 생성. 반환: (설정 dict, 신규 생성 여부)"""
-    is_new_file = not config_path.exists()
+def load_or_create_config(config_path: Path | None = None, parent: tk.Tk | None = None) -> tuple[dict, bool]:
+    """실행 폴더의 설정 파일을 로드하거나, 없으면 대화상자로 입력받아 생성. 반환: (설정 dict, 신규 생성 여부)"""
+    target_path = Path(config_path).resolve() if config_path is not None else get_config_path()
+    is_new_file = not target_path.exists()
     if is_new_file:
         cfg = json.loads(json.dumps(DEFAULT_CONFIG))
         if parent is not None:
             cfg = prompt_initial_config(parent, cfg)
-        with open(config_path, "w", encoding="utf-8") as cf:
+        target_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(target_path, "w", encoding="utf-8") as cf:
             json.dump(cfg, cf, ensure_ascii=False, indent=2)
         return cfg, True
 
-    with open(config_path, "r", encoding="utf-8") as cf:
+    with open(target_path, "r", encoding="utf-8") as cf:
         user_cfg = json.load(cf)
 
     merged = json.loads(json.dumps(DEFAULT_CONFIG))
@@ -164,11 +175,12 @@ def load_or_create_config(config_path: Path = CONFIG_PATH, parent: tk.Tk | None 
     return merged, False
 
 
-def apply_runtime_config(cfg: dict):
+def apply_runtime_config(cfg: dict, runtime_dir: Path | None = None):
     global CONFIG, API_KEY, BASE_DIR, CACHE_FILE, CACHE_TTL
     global VERSION_FILENAME, RENAME_LOG_FILE, CONSOLE_MAPPING
     global CACHE_PATH, RENAME_LOG_PATH, EXCLUDE_FILENAMES
 
+    base_runtime_dir = Path(runtime_dir).resolve() if runtime_dir is not None else get_runtime_dir()
     CONFIG = cfg
     API_KEY = str(CONFIG.get("api_key", "")).strip()
     BASE_DIR = str(CONFIG.get("base_dir", r"C:\share\KRPATCH"))
@@ -182,18 +194,20 @@ def apply_runtime_config(cfg: dict):
         if isinstance(v, (list, tuple)) and len(v) == 2
     }
 
-    CACHE_PATH = SCRIPT_DIR / CACHE_FILE
-    RENAME_LOG_PATH = SCRIPT_DIR / RENAME_LOG_FILE
+    cache_file_path = Path(CACHE_FILE)
+    CACHE_PATH = cache_file_path if cache_file_path.is_absolute() else (base_runtime_dir / cache_file_path)
+
+    log_file_path = Path(RENAME_LOG_FILE)
+    RENAME_LOG_PATH = log_file_path if log_file_path.is_absolute() else (base_runtime_dir / log_file_path)
+
     EXCLUDE_FILENAMES = {VERSION_FILENAME.lower()}
 
 
-# 모듈 임포트 시에도 기본 설정을 즉시 적용 (GUI 실행 시에는 KrpatchGUI에서 대화상자 연동)
+# 기본 설정 적용 후 실행 폴더에 이미 설정 파일이 있으면 즉시 로드
 apply_runtime_config(json.loads(json.dumps(DEFAULT_CONFIG)))
-if CONFIG_PATH.exists():
-    _loaded_cfg, _ = load_or_create_config(CONFIG_PATH, parent=None)
+if get_config_path().exists():
+    _loaded_cfg, _ = load_or_create_config(get_config_path(), parent=None)
     apply_runtime_config(_loaded_cfg)
-
-API_URL = "https://retrodb.info/krpatch/api/list"
 
 # 제외할 파일 확장자 목록
 EXCLUDE_EXTENSIONS = {".txt", ".lnk", ".mhtml"}
@@ -288,7 +302,7 @@ def fetch_patch_list(force_refresh: bool = False) -> list:
                 return data.get("patches", [])
 
     if not API_KEY or API_KEY == "여기에_발급받은_API_키를_입력하세요":
-        raise RuntimeError(f"API 키가 설정되지 않았습니다. {CONFIG_PATH.name}의 api_key를 입력해 주세요.")
+        raise RuntimeError(f"API 키가 설정되지 않았습니다. {get_config_path()}의 api_key를 입력해 주세요.")
 
     headers = {"X-API-Key": API_KEY}
     while True:
@@ -817,8 +831,8 @@ class KrpatchGUI(tk.Tk):
         self.after(50, self._init_config_and_scan)
 
     def _init_config_and_scan(self):
-        cfg, _ = load_or_create_config(CONFIG_PATH, parent=self)
-        apply_runtime_config(cfg)
+        cfg, _ = load_or_create_config(get_config_path(), parent=self)
+        apply_runtime_config(cfg, runtime_dir=get_runtime_dir())
         self.run_scan(mode="all", force_refresh=False, prompt_ambiguous=True, create_missing_ver=True)
 
     def _build_ui(self):
@@ -895,6 +909,10 @@ class KrpatchGUI(tk.Tk):
         prompt_ambiguous: bool = False,
         create_missing_ver: bool = False,
     ):
+        runtime_dir = get_runtime_dir()
+        cfg, _ = load_or_create_config(runtime_dir / CONFIG_FILENAME, parent=None)
+        apply_runtime_config(cfg, runtime_dir=runtime_dir)
+
         self.current_mode = mode
         show_maker = bool(self.show_maker_var.get())
         self.status_var.set("폴더 및 RetroDB 데이터를 불러오는 중...")
