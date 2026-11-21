@@ -290,7 +290,7 @@ def fetch_patch_list(force_refresh: bool = False) -> list:
     if not API_KEY or API_KEY == "여기에_발급받은_API_키를_입력하세요":
         raise RuntimeError(f"API 키가 설정되지 않았습니다. {CONFIG_PATH.name}의 api_key를 입력해 주세요.")
 
-    headers = {"key": API_KEY}
+    headers = {"X-API-Key": API_KEY}
     while True:
         resp = requests.get(API_URL, headers=headers, timeout=30)
         if resp.status_code == 200:
@@ -913,7 +913,8 @@ class KrpatchGUI(tk.Tk):
                 )
                 self.after(0, lambda: self._on_scan_complete(patches, records, select_queue_items, mode, prompt_ambiguous))
             except Exception as e:
-                self.after(0, lambda: self._on_scan_error(str(e)))
+                err_msg = str(e)
+                self.after(0, lambda msg=err_msg: self._on_scan_error(msg))
 
         threading.Thread(target=worker, daemon=True).start()
 
