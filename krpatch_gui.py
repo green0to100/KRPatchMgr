@@ -7,32 +7,17 @@ import difflib
 import threading
 import webbrowser
 import tkinter as tk
-from tkinter import ttk, messagebox
+from tkinter import ttk, messagebox, filedialog
 import requests
 from pathlib import Path
 
-# ==========================================
-# 사용자 설정 영역
-# ==========================================
-API_KEY = "855a97d9d5e304ac60f1c0ee940e6a94"
-BASE_DIR = r"C:\share\KRPATCH"  # 최상위 경로
-CACHE_FILE = "retrodb_krpatch_cache.json"
-CACHE_TTL = 3600  # API 정책상 1시간(3600초) 캐시 유지
-VERSION_FILENAME = ".retrodb_ver"  # 버전 정보 기록 파일명
-RENAME_LOG_FILE = "krpatch_folder_rename.log"  # 폴더 변경 로그 파일명
-# ==========================================
+APP_VERSION = "0.1"
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-CACHE_PATH = SCRIPT_DIR / CACHE_FILE
-RENAME_LOG_PATH = SCRIPT_DIR / RENAME_LOG_FILE
+CONFIG_PATH = SCRIPT_DIR / "krpatch_config.json"
 API_URL = "https://retrodb.info/krpatch/api/list"
 
-# 제외할 파일 확장자 및 이름 목록
-EXCLUDE_EXTENSIONS = {".txt", ".lnk", ".mhtml"}
-EXCLUDE_FILENAMES = {".retrodb_ver"}
-
-# 콘솔 기종별 제조사 매핑 테이블
-CONSOLE_MAPPING = {
+DEFAULT_CONSOLE_MAPPING = {
     "FC": ("Nintendo", "FC"), "FAMICOM": ("Nintendo", "FC"),
     "NES": ("Nintendo", "NES"),
     "SFC": ("Nintendo", "SFC"), "SUPERFAMICOM": ("Nintendo", "SFC"),
@@ -64,6 +49,154 @@ CONSOLE_MAPPING = {
     # 마이크로소프트
     "XBOX": ("Microsoft", "XBOX"),
 }
+
+DEFAULT_CONFIG = {
+    "api_key": "855a97d9d5e304ac60f1c0ee940e6a94",
+    "base_dir": r"C:\share\KRPATCH",
+    "cache_file": "retrodb_krpatch_cache.json",
+    "cache_ttl": 3600,
+    "version_filename": ".retrodb_ver",
+    "rename_log_file": "krpatch_folder_rename.log",
+    "console_mapping": {k: list(v) for k, v in DEFAULT_CONSOLE_MAPPING.items()},
+}
+
+
+class InitialConfigDialog(tk.Toplevel):
+    def __init__(self, parent, initial_api_key: str, initial_base_dir: str):
+        super().__init__(parent)
+        self.title("초기 환경설정")
+        self.geometry("560x210")
+        self.resizable(False, False)
+        self.transient(parent)
+        self.grab_set()
+
+        self.api_key_var = tk.StringVar(value=initial_api_key)
+        self.base_dir_var = tk.StringVar(value=initial_base_dir)
+        self.saved = False
+
+        self._build_ui()
+        self.protocol("WM_DELETE_WINDOW", self.on_cancel)
+
+    def _build_ui(self):
+        container = ttk.Frame(self, padding=16)
+        container.pack(fill=tk.BOTH, expand=True)
+
+        ttk.Label(
+            container,
+            text="환경설정 파일(krpatch_config.json)이 없어 새로 생성합니다. 발급키와 폴더를 지정해 주세요.",
+        ).pack(anchor=tk.W, pady=(0, 14))
+
+        key_row = ttk.Frame(container)
+        key_row.pack(fill=tk.X, pady=(0, 10))
+        ttk.Label(key_row, text="API 발급키:", width=12).pack(side=tk.LEFT)
+        key_entry = ttk.Entry(key_row, textvariable=self.api_key_var)
+        key_entry.pack(side=tk.LEFT, fill=tk.X, expand=True)
+        key_entry.focus_set()
+
+        dir_row = ttk.Frame(container)
+        dir_row.pack(fill=tk.X, pady=(0, 18))
+        ttk.Label(dir_row, text="최상위 폴더:", width=12).pack(side=tk.LEFT)
+        dir_entry = ttk.Entry(dir_row, textvariable=self.base_dir_var)
+        dir_entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(0, 6))
+        ttk.Button(dir_row, text="찾아보기", command=self.browse_folder).pack(side=tk.LEFT)
+
+        btn_row = ttk.Frame(container)
+        btn_row.pack(fill=tk.X)
+        ttk.Button(btn_row, text="취소", command=self.on_cancel).pack(side=tk.RIGHT, padx=(6, 0))
+        ttk.Button(btn_row, text="저장", command=self.on_save).pack(side=tk.RIGHT)
+
+    def browse_folder(self):
+        current = self.base_dir_var.get().strip()
+        initial_dir = current if current and os.path.isdir(current) else str(SCRIPT_DIR)
+        selected = filedialog.askdirectory(title="최상위 한글패치 폴더 선택", initialdir=initial_dir, parent=self)
+        if selected:
+            self.base_dir_var.set(selected)
+
+    def on_save(self):
+        self.saved = True
+        self.destroy()
+
+    def on_cancel(self):
+        self.saved = False
+        self.destroy()
+
+
+def prompt_initial_config(parent: tk.Tk, config_data: dict) -> dict:
+    dlg = InitialConfigDialog(
+        parent,
+        initial_api_key=str(config_data.get("api_key", "")),
+        initial_base_dir=str(config_data.get("base_dir", r"C:\share\KRPATCH")),
+    )
+    parent.wait_window(dlg)
+    if dlg.saved:
+        config_data["api_key"] = dlg.api_key_var.get().strip()
+        config_data["base_dir"] = dlg.base_dir_var.get().strip() or r"C:\share\KRPATCH"
+    return config_data
+
+
+def load_or_create_config(config_path: Path = CONFIG_PATH, parent: tk.Tk | None = None) -> tuple[dict, bool]:
+    """설정 파일을 로드하거나, 없으면 대화상자로 입력받아 생성. 반환: (설정 dict, 신규 생성 여부)"""
+    is_new_file = not config_path.exists()
+    if is_new_file:
+        cfg = json.loads(json.dumps(DEFAULT_CONFIG))
+        if parent is not None:
+            cfg = prompt_initial_config(parent, cfg)
+        with open(config_path, "w", encoding="utf-8") as cf:
+            json.dump(cfg, cf, ensure_ascii=False, indent=2)
+        return cfg, True
+
+    with open(config_path, "r", encoding="utf-8") as cf:
+        user_cfg = json.load(cf)
+
+    merged = json.loads(json.dumps(DEFAULT_CONFIG))
+    for k, v in user_cfg.items():
+        if k != "console_mapping" and v is not None:
+            merged[k] = v
+
+    if isinstance(user_cfg.get("console_mapping"), dict):
+        custom_map = {}
+        for code, pair in user_cfg["console_mapping"].items():
+            if isinstance(pair, (list, tuple)) and len(pair) == 2:
+                custom_map[str(code).upper()] = [str(pair[0]), str(pair[1])]
+        if custom_map:
+            merged["console_mapping"] = custom_map
+
+    return merged, False
+
+
+def apply_runtime_config(cfg: dict):
+    global CONFIG, API_KEY, BASE_DIR, CACHE_FILE, CACHE_TTL
+    global VERSION_FILENAME, RENAME_LOG_FILE, CONSOLE_MAPPING
+    global CACHE_PATH, RENAME_LOG_PATH, EXCLUDE_FILENAMES
+
+    CONFIG = cfg
+    API_KEY = str(CONFIG.get("api_key", "")).strip()
+    BASE_DIR = str(CONFIG.get("base_dir", r"C:\share\KRPATCH"))
+    CACHE_FILE = str(CONFIG.get("cache_file", "retrodb_krpatch_cache.json"))
+    CACHE_TTL = int(CONFIG.get("cache_ttl", 3600))
+    VERSION_FILENAME = str(CONFIG.get("version_filename", ".retrodb_ver"))
+    RENAME_LOG_FILE = str(CONFIG.get("rename_log_file", "krpatch_folder_rename.log"))
+    CONSOLE_MAPPING = {
+        str(k).upper(): (str(v[0]), str(v[1]))
+        for k, v in CONFIG.get("console_mapping", {}).items()
+        if isinstance(v, (list, tuple)) and len(v) == 2
+    }
+
+    CACHE_PATH = SCRIPT_DIR / CACHE_FILE
+    RENAME_LOG_PATH = SCRIPT_DIR / RENAME_LOG_FILE
+    EXCLUDE_FILENAMES = {VERSION_FILENAME.lower()}
+
+
+# 모듈 임포트 시에도 기본 설정을 즉시 적용 (GUI 실행 시에는 KrpatchGUI에서 대화상자 연동)
+apply_runtime_config(json.loads(json.dumps(DEFAULT_CONFIG)))
+if CONFIG_PATH.exists():
+    _loaded_cfg, _ = load_or_create_config(CONFIG_PATH, parent=None)
+    apply_runtime_config(_loaded_cfg)
+
+API_URL = "https://retrodb.info/krpatch/api/list"
+
+# 제외할 파일 확장자 목록
+EXCLUDE_EXTENSIONS = {".txt", ".lnk", ".mhtml"}
 
 MAKER_FOLDER_PATTERN = re.compile(r"^(?P<title>.+?)\s*\[(?P<maker>[^\]]+)\]$")
 _LOG_LOCK = threading.Lock()
@@ -155,9 +288,9 @@ def fetch_patch_list(force_refresh: bool = False) -> list:
                 return data.get("patches", [])
 
     if not API_KEY or API_KEY == "여기에_발급받은_API_키를_입력하세요":
-        raise RuntimeError("API 키가 설정되지 않았습니다. 스크립트 상단의 API_KEY를 입력해 주세요.")
+        raise RuntimeError(f"API 키가 설정되지 않았습니다. {CONFIG_PATH.name}의 api_key를 입력해 주세요.")
 
-    headers = {"X-API-Key": API_KEY}
+    headers = {"key": API_KEY}
     while True:
         resp = requests.get(API_URL, headers=headers, timeout=30)
         if resp.status_code == 200:
@@ -671,7 +804,7 @@ class DBSelectDialog(tk.Toplevel):
 class KrpatchGUI(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("RetroDB 한글패치 관리자")
+        self.title(f"RetroDB 한글패치 관리자 v{APP_VERSION}")
         self.geometry("1300x660")
         self.all_patches: list[dict] = []
         self.all_records: list[dict] = []
@@ -681,7 +814,12 @@ class KrpatchGUI(tk.Tk):
         self.show_maker_var = tk.BooleanVar(value=False)
 
         self._build_ui()
-        self.after(100, lambda: self.run_scan(mode="all", force_refresh=False, prompt_ambiguous=True, create_missing_ver=True))
+        self.after(50, self._init_config_and_scan)
+
+    def _init_config_and_scan(self):
+        cfg, _ = load_or_create_config(CONFIG_PATH, parent=self)
+        apply_runtime_config(cfg)
+        self.run_scan(mode="all", force_refresh=False, prompt_ambiguous=True, create_missing_ver=True)
 
     def _build_ui(self):
         top_frame = ttk.Frame(self, padding=10)
