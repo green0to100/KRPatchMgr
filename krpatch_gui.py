@@ -60,7 +60,7 @@ DEFAULT_CONSOLE_MAPPING = {
 }
 
 DEFAULT_CONFIG = {
-    "api_key": "855a97d9d5e304ac60f1c0ee940e6a94",
+    "api_key": "https://retrodb.info/krpatch/api 에서 키를 발급 받으세요",
     "base_dir": r"C:\share\KRPATCH",
     "cache_file": "retrodb_krpatch_cache.json",
     "cache_ttl": 3600,

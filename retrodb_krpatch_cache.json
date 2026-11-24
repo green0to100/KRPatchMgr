@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-22 10AM",
+  "generated_at": "2026-11-24 10PM",
   "refresh_interval": 3600,
   "notice": "API로 제공되는 내용은 1시간에 1번 업데이트됩니다. 한 번 호출한 뒤에는 1시간 동안 캐시해서 이용해주세요. 목록의 링크는 사람이 직접 눌러 여는 용도입니다. 프로그램이 링크를 자동으로 열어 정보를 모으면 API 키가 정지될 수 있습니다.",
   "source": "https://retrodb.info/krpatch",
   "guide": "https://retrodb.info/krpatch/api",
-  "count": 4400,
+  "count": 4510,
   "patches": [
     {
       "id": "KP5F5C6F302B",
@@ -22,9 +22,9 @@
       "id": "KP41C9FE7919",
       "console": "MD",
       "title": "무사 알레스터",
-      "version": null,
+      "version": "2",
       "author": "NSM53 PROJECT",
-      "patch_date": "2009-07-25",
+      "patch_date": "2017-12-05",
       "registered_at": "2026-07-18",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/6e0309366d30c6f8627becc0b2baace0"
@@ -156,7 +156,7 @@
       "title": "이스 3",
       "version": "1.0",
       "author": "NSM53 PROJECT",
-      "patch_date": "2011-07-22",
+      "patch_date": "2013-08-25",
       "registered_at": "2026-07-18",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/1c73dd81cfd4ce9384d4b43fb7a270c5"
@@ -1172,17 +1172,6 @@
       "registered_at": "2026-07-14",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/7c3aa36fcbc49a2b3b463114cfcc4e6f"
-    },
-    {
-      "id": "KP2DB2F0A57C",
-      "console": "MSX2",
-      "title": "에메랄드 드래곤",
-      "version": null,
-      "author": "NSM53 PROJECT",
-      "patch_date": "2020-11-08",
-      "registered_at": "2026-07-18",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/7f2650ee450f09eac4ae3f545b693e9c"
     },
     {
       "id": "KPECB8A5DFB0",
@@ -5805,17 +5794,6 @@
       "url": "https://retrodb.info/krpatch/api/link/5144aa000e272aaf1f14da64ef44989b"
     },
     {
-      "id": "KPBA4A6E2ABD",
-      "console": "PSP",
-      "title": "유희왕 태그포스 1",
-      "version": "2",
-      "author": "째벽",
-      "patch_date": "2026-07-24",
-      "registered_at": "2026-07-24",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/678b62a3a5b8ee892a381c3b7a6754e8"
-    },
-    {
       "id": "KP8BEE68C318",
       "console": "PS2",
       "title": "스타 오션 3 디렉터스 컷",
@@ -5875,10 +5853,10 @@
       "console": "PSP",
       "title": "골판지전기 부스트",
       "version": "1.2",
-      "author": "시에cxlcom",
+      "author": null,
       "patch_date": "2026-07-26",
       "registered_at": "2026-07-21",
-      "status": "배포중",
+      "status": "배포중단",
       "url": "https://retrodb.info/krpatch/api/link/b483862122ad40ad9af665bee4a4dfc4"
     },
     {
@@ -5979,6 +5957,17 @@
       "registered_at": "2026-07-29",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/2203b01b7b905222f4841bb27ce1d92b"
+    },
+    {
+      "id": "KPBE747892D4",
+      "console": "PSP",
+      "title": "유희왕 태그포스 1",
+      "version": "2",
+      "author": "째벽",
+      "patch_date": "2026-07-24",
+      "registered_at": "2026-07-29",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/d42f29bafaba89c024c79586662d13c9"
     },
     {
       "id": "KPA3577AFEE2",
@@ -6533,7 +6522,7 @@
     {
       "id": "KP995C146002",
       "console": "PS1",
-      "title": "티어링 사가",
+      "title": "티어링 사가: 유토나 영웅전기",
       "version": "0.9.1",
       "author": "비누나무",
       "patch_date": "2026-07-31",
@@ -6797,7 +6786,7 @@
     {
       "id": "KPA14BEDA11D",
       "console": "PS1",
-      "title": "티어링 사가",
+      "title": "티어링 사가: 유토나 영웅전기",
       "version": "0.9.28",
       "author": "NaVaMo",
       "patch_date": "2026-08-02",
@@ -8278,17 +8267,6 @@
       "registered_at": "2026-08-14",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/9a1968bbee9256f921f5ba1328a64b0b"
-    },
-    {
-      "id": "KPA87697E577",
-      "console": "3DS",
-      "title": "다운타운 열혈시대 극",
-      "version": "0.9-0814",
-      "author": "대전I컹컹",
-      "patch_date": "2026-08-14",
-      "registered_at": "2026-08-14",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/e3ec7744475455e32f437ed72e92c45f"
     },
     {
       "id": "KP78A1B55B4D",
@@ -9818,6 +9796,17 @@
       "registered_at": "2026-08-25",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/428c9b5a12a81622b4ce8428104ce9b6"
+    },
+    {
+      "id": "KPF94284A018",
+      "console": "3DS",
+      "title": "다운타운 열혈시대 극",
+      "version": "0.12.4",
+      "author": "대전I컹컹",
+      "patch_date": "2026-08-14",
+      "registered_at": "2026-08-25",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/764c77868a8273b9357c25b77133cdb8"
     },
     {
       "id": "KPBE3681D4E1",
@@ -13406,17 +13395,6 @@
       "url": "https://retrodb.info/krpatch/api/link/6b9722c0b6a653bc8911d0627bab2c87"
     },
     {
-      "id": "KPA43742D818",
-      "console": "XBOX360",
-      "title": "에이스 컴뱃 6",
-      "version": "1.3.1",
-      "author": "KOZAK",
-      "patch_date": "2026-09-13",
-      "registered_at": "2026-09-13",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/02bfdac68b956ee9f4737916ea1a8643"
-    },
-    {
       "id": "KPA40C945069",
       "console": "PS2",
       "title": "알 토네리코: 세계의 끝에서 계속 노래하는 소녀",
@@ -15126,10 +15104,10 @@
       "console": "SFC",
       "title": "파이널 판타지 6 T-에디션 + EX",
       "version": null,
-      "author": "그리핀",
+      "author": null,
       "patch_date": "2026-09-22",
       "registered_at": "2026-09-22",
-      "status": "배포중",
+      "status": "배포중단",
       "url": "https://retrodb.info/krpatch/api/link/c23880908cd5bcd69ee3fb5eeea6c41f"
     },
     {
@@ -15804,17 +15782,6 @@
       "url": "https://retrodb.info/krpatch/api/link/54c346dce31ece9d936bfd6fb9a570e8"
     },
     {
-      "id": "KP949C82956B",
-      "console": "DC",
-      "title": "북으로: 화이트 일루미네이션",
-      "version": "0.90",
-      "author": "바닷빛",
-      "patch_date": "2026-09-25",
-      "registered_at": "2026-09-25",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/20ed5bfafb495a72896a5221e817484a"
-    },
-    {
       "id": "KPCD3B0C560C",
       "console": "GBA",
       "title": "두 사람은 프리큐어 Max Heart: 진짜? 진짜!? Fight도 괜찮아",
@@ -16077,17 +16044,6 @@
       "registered_at": "2026-09-26",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/b8e6e979ef43df0cff9c987e4099caa9"
-    },
-    {
-      "id": "KP7B605D8C62",
-      "console": "NDS",
-      "title": "춤추는 대수사선: 잠수함에 잠입하라!",
-      "version": "0.9.4",
-      "author": "Dansic",
-      "patch_date": "2026-09-26",
-      "registered_at": "2026-09-27",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/61ed8c2834eeddfbafd1eccaa9e31e75"
     },
     {
       "id": "KP6599BDEE6A",
@@ -16354,17 +16310,6 @@
       "url": "https://retrodb.info/krpatch/api/link/e5340cb64da4d2998dda673cbfe7727e"
     },
     {
-      "id": "KP706ABBE939",
-      "console": "NDS",
-      "title": "THE 교섭인",
-      "version": "0.8",
-      "author": "Dansic",
-      "patch_date": "2026-09-27",
-      "registered_at": "2026-09-27",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/97bcd1acc550d35ed82042e1c06a937c"
-    },
-    {
       "id": "KP255BF6CBAE",
       "console": "GC",
       "title": "소닉 라이더즈",
@@ -16429,17 +16374,6 @@
       "registered_at": "2026-09-27",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/b43e2d08a8b155e8a5f34770f5a67d90"
-    },
-    {
-      "id": "KP399C6BC567",
-      "console": "FC",
-      "title": "천지를 먹다",
-      "version": "1.11",
-      "author": "퇴사는 나의 꿈",
-      "patch_date": "2026-09-27",
-      "registered_at": "2026-09-27",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/c79980a7b71d5fc6f16d7f987d7785c7"
     },
     {
       "id": "KP354B003850",
@@ -19709,17 +19643,6 @@
       "url": "https://retrodb.info/krpatch/api/link/abf74bb5043e2ef78768d73b425edf44"
     },
     {
-      "id": "KPF5E78306A0",
-      "console": "PS2",
-      "title": "뷰티풀 죠",
-      "version": "1.0",
-      "author": "방랑자",
-      "patch_date": "2026-10-05",
-      "registered_at": "2026-10-05",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/d133883be0ba24ea450198ca4f2df7e8"
-    },
-    {
       "id": "KPBBCC9C6968",
       "console": "3DS",
       "title": "원피스: 슈퍼 그랜드 배틀! X",
@@ -20191,17 +20114,6 @@
       "registered_at": "2026-10-06",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/1251bbdd6ba1e5ae597527f35bdc012a"
-    },
-    {
-      "id": "KP0CD35161DE",
-      "console": "NDS",
-      "title": "나이츠 인 더 나이트메어",
-      "version": "v1.0.1",
-      "author": "QJ",
-      "patch_date": "2026-10-06",
-      "registered_at": "2026-10-06",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/2741e7bce3149f2bb7ac782cc9bbf126"
     },
     {
       "id": "KPEB77ADB43F",
@@ -20873,17 +20785,6 @@
       "registered_at": "2026-10-07",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/c2363e447ae5f8889fe8b7254c1597b5"
-    },
-    {
-      "id": "KPB36C4245E7",
-      "console": "MD",
-      "title": "삼국지열전: 난세군영",
-      "version": null,
-      "author": "hguyswow",
-      "patch_date": "2026-10-07",
-      "registered_at": "2026-10-07",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/b1218df8ad3d0a5e69e64ca72fa271a7"
     },
     {
       "id": "KP8249959A52",
@@ -22371,17 +22272,6 @@
       "url": "https://retrodb.info/krpatch/api/link/fd5fafe96666ba8fe800dafc1ddbe86a"
     },
     {
-      "id": "KP5400D87BD2",
-      "console": "NDS",
-      "title": "도도 류노스케 탐정일기: 호박색 유언",
-      "version": "0.9",
-      "author": "Dansic",
-      "patch_date": "2026-10-10",
-      "registered_at": "2026-10-10",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/edce00f86718f38e172ec6b05fdb5071"
-    },
-    {
       "id": "KP8856DEEA0E",
       "console": "SS",
       "title": "타임보칸 시리즈: 보칸과 일발! 도론보 완벽판",
@@ -23332,10 +23222,10 @@
       "console": "GB",
       "title": "유희왕 듀얼몬스터즈",
       "version": "1.2",
-      "author": null,
+      "author": "길잃은비둘기",
       "patch_date": "2026-10-12",
       "registered_at": "2026-10-12",
-      "status": "배포중단",
+      "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/239d2735cf23df7cc5db67652fa37701"
     },
     {
@@ -23414,17 +23304,6 @@
       "registered_at": "2026-10-12",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/9f542c5849f3cbc6e8d5b2d6249df1ee"
-    },
-    {
-      "id": "KPBA98B19DB4",
-      "console": "PS2",
-      "title": "카게로 2: 다크 일루젼",
-      "version": "0.8-beta",
-      "author": "강유",
-      "patch_date": "2026-10-12",
-      "registered_at": "2026-10-12",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/1f411e73118035e859b6c29a777c4c77"
     },
     {
       "id": "KP35B59240EF",
@@ -23603,17 +23482,6 @@
       "url": "https://retrodb.info/krpatch/api/link/a52f74ea00b124ad4559a0dafc07c4b0"
     },
     {
-      "id": "KPC58AA9F930",
-      "console": "MD",
-      "title": "몬스터 월드 3",
-      "version": "베타 3",
-      "author": "hguyswow",
-      "patch_date": "2026-10-10",
-      "registered_at": "2026-10-12",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/3451032c75e5cedbf45d1ed784e8543a"
-    },
-    {
       "id": "KPE467726933",
       "console": "ARCADE",
       "title": "가이아폴리스",
@@ -23715,7 +23583,7 @@
     {
       "id": "KP2E3D3E2EB5",
       "console": "PS3",
-      "title": "전국바사라 4 황",
+      "title": "전국 바사라 4 황",
       "version": "1.3",
       "author": "언정이",
       "patch_date": "2026-10-13",
@@ -23821,17 +23689,6 @@
       "registered_at": "2026-10-13",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/0cd3b6f6c318f49e7ac17ba9ff18ec9f"
-    },
-    {
-      "id": "KPD4057A6548",
-      "console": "MD",
-      "title": "이상한 바다의 나디아",
-      "version": "0.9",
-      "author": "vol5970",
-      "patch_date": "2026-10-13",
-      "registered_at": "2026-10-13",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/2232921d460df412d9bcb7469e838012"
     },
     {
       "id": "KP7BFFC52C95",
@@ -24604,17 +24461,6 @@
       "url": "https://retrodb.info/krpatch/api/link/82e797805bef64f28cbcac96aba29df1"
     },
     {
-      "id": "KP15586778BC",
-      "console": "NDS",
-      "title": "풍래의 시렌 5: 포츈타워와 운명의 다이스",
-      "version": "0.9.2",
-      "author": "Dansic",
-      "patch_date": "2026-10-14",
-      "registered_at": "2026-10-14",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/f16a7da49bd2387f61079ca2a6706ca1"
-    },
-    {
       "id": "KP48A4093185",
       "console": "PS1",
       "title": "와쿠와쿠 뿌요뿌요 던전 완전판",
@@ -24624,17 +24470,6 @@
       "registered_at": "2026-10-14",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/e9394e91551d92f64b72c145e15a0759"
-    },
-    {
-      "id": "KPAAEBB4219E",
-      "console": "NDS",
-      "title": "풍래의 시렌 4",
-      "version": "0.9.2",
-      "author": "Dansic",
-      "patch_date": "2026-10-14",
-      "registered_at": "2026-10-14",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/3f381d44563a5ddf89c049b15634350b"
     },
     {
       "id": "KP32553D99A3",
@@ -24745,17 +24580,6 @@
       "registered_at": "2026-10-15",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/18fce5982c190247009a45bcf3c43677"
-    },
-    {
-      "id": "KPA7E50F9E3B",
-      "console": "PSP",
-      "title": "무쌍 오로치 2 스페셜",
-      "version": "0.9.0",
-      "author": "NP",
-      "patch_date": "2026-10-15",
-      "registered_at": "2026-10-15",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/0a212efa78c7c560f138a0e3e78dfcbf"
     },
     {
       "id": "KPCD042AD618",
@@ -24991,7 +24815,7 @@
     {
       "id": "KP2B00F9FE23",
       "console": "XBOX360",
-      "title": "사일런트힐 다운포어",
+      "title": "사일런트 힐: 다운포어",
       "version": "0.3.3",
       "author": "젬민이",
       "patch_date": "2026-10-15",
@@ -26010,17 +25834,6 @@
       "registered_at": "2026-10-17",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/69e0396d061ad5e3750dc8b2c380eeab"
-    },
-    {
-      "id": "KPD5FD3F73A6",
-      "console": "NDS",
-      "title": "도쿄 트와일라잇 버스터즈: 금단의 제물 제도지옥변",
-      "version": "0.9",
-      "author": "Dansic",
-      "patch_date": "2026-10-17",
-      "registered_at": "2026-10-17",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/362d0c213b9a5cad0987a31c1536d1d5"
     },
     {
       "id": "KP79A2E4F044",
@@ -28003,17 +27816,6 @@
       "url": "https://retrodb.info/krpatch/api/link/315df66995befda953ab0b41a30407fb"
     },
     {
-      "id": "KP28C05D0658",
-      "console": "PS1",
-      "title": "티어링 사가",
-      "version": "1.0.2",
-      "author": "잉그램",
-      "patch_date": "2026-10-19",
-      "registered_at": "2026-10-19",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/d0d185dd55277b27dfe887cc05d3f3cd"
-    },
-    {
       "id": "KPA63684D904",
       "console": "GBA",
       "title": "레스큐 히어로즈",
@@ -28861,28 +28663,6 @@
       "url": "https://retrodb.info/krpatch/api/link/afefdad05832cdc85672b35d02f0c630"
     },
     {
-      "id": "KP3228CA73E8",
-      "console": "MD",
-      "title": "피구왕 통키",
-      "version": "1.0",
-      "author": "히힛마스터",
-      "patch_date": "2026-10-21",
-      "registered_at": "2026-10-21",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/ee89a1a9ee0aea4fbba00e8ebb4ae16f"
-    },
-    {
-      "id": "KP2CA1FDAD8C",
-      "console": "SFC",
-      "title": "이하토보 이야기",
-      "version": "0.22",
-      "author": "무상",
-      "patch_date": "2026-10-21",
-      "registered_at": "2026-10-21",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/e12f37bcfb60ae8622207ae0ea8ac35f"
-    },
-    {
       "id": "KPDE2BBFF9A3",
       "console": "PS2",
       "title": "엘르멘탈 제라드",
@@ -29147,17 +28927,6 @@
       "url": "https://retrodb.info/krpatch/api/link/9a99e515477275f4f0aaf41ec554e9d4"
     },
     {
-      "id": "KP10710A4C2A",
-      "console": "PSP",
-      "title": "갓 이터 버스트",
-      "version": "0.98",
-      "author": "TeeTeeTee",
-      "patch_date": "2026-10-18",
-      "registered_at": "2026-10-22",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/0d802794dae6c2c98b17420b5767ba99"
-    },
-    {
       "id": "KP45081B42DD",
       "console": "GBA",
       "title": "기동전사 건담 SEED: 데스티니",
@@ -29288,17 +29057,6 @@
       "registered_at": "2026-10-22",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/ac6ad4d74a50705af64b0b082e74aeb1"
-    },
-    {
-      "id": "KP669FD6B879",
-      "console": "NDS",
-      "title": "진 여신전생: 데빌 서바이버 2",
-      "version": "0.8",
-      "author": "Dansic",
-      "patch_date": "2026-10-22",
-      "registered_at": "2026-10-22",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/e19b63c77122a3ddb7a9640a4c7692d1"
     },
     {
       "id": "KPDE5ED2B089",
@@ -29796,17 +29554,6 @@
       "url": "https://retrodb.info/krpatch/api/link/3c7463f14657937f879367899a2540d2"
     },
     {
-      "id": "KP237E2871A4",
-      "console": "N64",
-      "title": "악마성 드라큘라 묵시록 외전: 레전드 오브 코넬",
-      "version": "0.6",
-      "author": "GiKakNo",
-      "patch_date": "2026-10-23",
-      "registered_at": "2026-10-23",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/f9780eee83626243bc1768465c330950"
-    },
-    {
       "id": "KP07657C3E92",
       "console": "PS2",
       "title": "Formula One 06",
@@ -30025,17 +29772,6 @@
       "registered_at": "2026-10-23",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/eed66a5148d4dbf07adc0fd152d56c29"
-    },
-    {
-      "id": "KP0DAEB4877F",
-      "console": "SFC",
-      "title": "파이널 판타지 6",
-      "version": "1.0",
-      "author": "dwyn",
-      "patch_date": "2026-10-23",
-      "registered_at": "2026-10-23",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/6d54442ae373b17001cb5d05a63d73b9"
     },
     {
       "id": "KP9D36643039",
@@ -30630,17 +30366,6 @@
       "registered_at": "2026-10-25",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/54179b533373934addbd0a9b17a97888"
-    },
-    {
-      "id": "KP5E16EF0451",
-      "console": "ARCADE",
-      "title": "스트리트 파이터 3 세컨드 임펙트",
-      "version": "1.0",
-      "author": "꿀렁이",
-      "patch_date": "2026-10-25",
-      "registered_at": "2026-10-25",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/ff134837e230e947b44374410090aeb8"
     },
     {
       "id": "KP0CB0E9223C",
@@ -32282,17 +32007,6 @@
       "url": "https://retrodb.info/krpatch/api/link/56720af2fb082fc01c734644081545f9"
     },
     {
-      "id": "KP944A2B6354",
-      "console": "PS1",
-      "title": "흑의 검",
-      "version": "1.01",
-      "author": "꽃송아지",
-      "patch_date": "2026-10-27",
-      "registered_at": "2026-10-27",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/8a1b272ed45901d39ca61f4f751dde69"
-    },
-    {
       "id": "KP784A885962",
       "console": "PCE",
       "title": "카다쉬",
@@ -32511,17 +32225,6 @@
       "registered_at": "2026-10-27",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/1c2ed90a13fec8b554da75ff8ad5be8f"
-    },
-    {
-      "id": "KPB88C6BC1E8",
-      "console": "ARCADE",
-      "title": "스트리트 파이터 3 서드 스트라이크",
-      "version": "1.0",
-      "author": "꿀렁이",
-      "patch_date": "2026-10-27",
-      "registered_at": "2026-10-27",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/d7b740d23a30dc15ec9f694e50303804"
     },
     {
       "id": "KP0365C422D0",
@@ -34119,17 +33822,6 @@
       "url": "https://retrodb.info/krpatch/api/link/c2d7a10d1b66ae4f152d813130a539e5"
     },
     {
-      "id": "KP4C7F086879",
-      "console": "SFC",
-      "title": "엘파리아",
-      "version": "1.0",
-      "author": "미지23",
-      "patch_date": "2026-10-29",
-      "registered_at": "2026-10-30",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/9ab213250a2aeea000b84bc8897023ae"
-    },
-    {
       "id": "KP8D6FB490A1",
       "console": "SS",
       "title": "사이버보츠",
@@ -34161,17 +33853,6 @@
       "registered_at": "2026-10-30",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/6e5c87737828647bc804667ce0f33159"
-    },
-    {
-      "id": "KP112EC0BFE6",
-      "console": "SFC",
-      "title": "마신전생",
-      "version": "1.0",
-      "author": "미지23",
-      "patch_date": "2026-10-24",
-      "registered_at": "2026-10-30",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/deb4625854205eb3117baf05b88eef15"
     },
     {
       "id": "KP221F77E0C5",
@@ -34693,7 +34374,7 @@
     {
       "id": "KP2906FDD17D",
       "console": "GBA",
-      "title": "악마성 드라큘라: 백야의 협주곡",
+      "title": "악마성 드라큘라: 백야의 협주곡 - 리하모나이즈드",
       "version": "261031",
       "author": "버드미사일을처박아주겠어",
       "patch_date": "2026-10-31",
@@ -34722,17 +34403,6 @@
       "registered_at": "2026-10-31",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/4f051fd73fd4a17432db20f43db6fc28"
-    },
-    {
-      "id": "KPB80438BD76",
-      "console": "PS2",
-      "title": "데드 오어 얼라이브 2 하드코어",
-      "version": "1.0",
-      "author": "부끄지",
-      "patch_date": "2026-10-31",
-      "registered_at": "2026-10-31",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/f5e5e46573d4f574342e06e0821fce3c"
     },
     {
       "id": "KP13F3E00142",
@@ -34953,39 +34623,6 @@
       "registered_at": "2026-11-01",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/7d121d53c0fe02755d31b625e404836b"
-    },
-    {
-      "id": "KP56B6DEC3AA",
-      "console": "NDS",
-      "title": "포켓몬 + 노부나가의 야망",
-      "version": "1.0.1",
-      "author": "QJ",
-      "patch_date": "2026-10-30",
-      "registered_at": "2026-11-01",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/f672e30e7a34e873307b076b98bb4f53"
-    },
-    {
-      "id": "KPE9CCB484A1",
-      "console": "NDS",
-      "title": "제트 임펄스",
-      "version": "1.1.1",
-      "author": "QJ",
-      "patch_date": "2026-10-27",
-      "registered_at": "2026-11-01",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/890b9e5a8aa13c476d5be7537d70c88b"
-    },
-    {
-      "id": "KP832ADDF3EC",
-      "console": "NDS",
-      "title": "진 여신전생 스트레인지 저니",
-      "version": "1.0.2",
-      "author": "QJ",
-      "patch_date": "2026-10-24",
-      "registered_at": "2026-11-01",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/c9debea63ac1266bddcd29a99a43dad5"
     },
     {
       "id": "KP61BB9D279F",
@@ -35967,17 +35604,6 @@
       "url": "https://retrodb.info/krpatch/api/link/34586697e8b0bcd4cf53fddc3d548246"
     },
     {
-      "id": "KP1D32258DFE",
-      "console": "SFC",
-      "title": "힘내라 고에몽: 유키 공주 구출기",
-      "version": "1.0",
-      "author": "미지23",
-      "patch_date": "2026-11-02",
-      "registered_at": "2026-11-02",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/abed1177527991b0d59d08def345e3e6"
-    },
-    {
       "id": "KP98DF3E9E4E",
       "console": "PS2",
       "title": "스플린터 셀: 카오스 이론",
@@ -36110,17 +35736,6 @@
       "url": "https://retrodb.info/krpatch/api/link/baad4a9a480cb2a899e6187265109328"
     },
     {
-      "id": "KP422D16317B",
-      "console": "PS1",
-      "title": "트와일라잇 신드롬 구명편",
-      "version": "1.1",
-      "author": "부끄지",
-      "patch_date": "2026-11-02",
-      "registered_at": "2026-11-02",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/3934103a01d4e92ae8aab185720f07ed"
-    },
-    {
       "id": "KP0E054779DE",
       "console": "PSP",
       "title": "프로야구 스피리츠 2014",
@@ -36176,17 +35791,6 @@
       "url": "https://retrodb.info/krpatch/api/link/4de6702ce857d9e955844dab7918eb56"
     },
     {
-      "id": "KP2E82F224AA",
-      "console": "PSP",
-      "title": "디시디아 012 듀오데심 파이널 판타지",
-      "version": "0.94",
-      "author": "TeeTeeTee",
-      "patch_date": "2026-11-01",
-      "registered_at": "2026-11-02",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/cb955bc8819a19287aa19fa79f0707c5"
-    },
-    {
       "id": "KP08E630F398",
       "console": "SS",
       "title": "신세기 에반게리온",
@@ -36218,17 +35822,6 @@
       "registered_at": "2026-11-02",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/874b31ed65fb66535dcca6fa7cfa768d"
-    },
-    {
-      "id": "KP85272DF2C4",
-      "console": "SFC",
-      "title": "레이디 스토커: 과거로부터의 도전",
-      "version": "1.2",
-      "author": "미지23",
-      "patch_date": "2026-11-02",
-      "registered_at": "2026-11-02",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/f1b434c4845d7bfb23b2dda97be2694f"
     },
     {
       "id": "KP2AE0BA487E",
@@ -36649,17 +36242,6 @@
       "url": "https://retrodb.info/krpatch/api/link/02e062d3193d94d2581d41e95c1f09aa"
     },
     {
-      "id": "KP956722C10E",
-      "console": "PSP",
-      "title": "파이널 판타지 3",
-      "version": "1.1a",
-      "author": "린스",
-      "patch_date": "2026-11-03",
-      "registered_at": "2026-11-03",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/66234bf73288a7b8d0a3ac338f3bdd52"
-    },
-    {
       "id": "KP72F8C477C3",
       "console": "3DS",
       "title": "디지몬 월드 리:디지타이즈 디코드",
@@ -36823,17 +36405,6 @@
       "registered_at": "2026-11-03",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/e74120c477af1feb850e60dd969f25fc"
-    },
-    {
-      "id": "KPD62BD0AD1D",
-      "console": "SFC",
-      "title": "파이널 판타지 6",
-      "version": "2.1",
-      "author": "일하기싫은아재",
-      "patch_date": "2026-11-03",
-      "registered_at": "2026-11-03",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/ec7042e01eedc0d88584c86e464ac675"
     },
     {
       "id": "KPC060398712",
@@ -37578,7 +37149,7 @@
       "title": "신성기 오딧세리아 2",
       "version": "0.8C",
       "author": "동글이아빠",
-      "patch_date": "2026-11-03",
+      "patch_date": "2026-11-05",
       "registered_at": "2026-11-05",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/5f970020a744025a9ffd7f981de5fd0c"
@@ -38244,17 +37815,6 @@
       "url": "https://retrodb.info/krpatch/api/link/53e94e7dd4a8041e68a4287c1b8fc95f"
     },
     {
-      "id": "KPA855D7BE80",
-      "console": "PS2",
-      "title": "MLB 07: 더 쇼",
-      "version": "1.0",
-      "author": "부끄지",
-      "patch_date": "2026-11-05",
-      "registered_at": "2026-11-05",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/3ebbb0aeb71d8ebf9c164bfd591b1bad"
-    },
-    {
       "id": "KP1CCAF5D710",
       "console": "PC98",
       "title": "마돌",
@@ -38385,17 +37945,6 @@
       "registered_at": "2026-11-06",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/c9baefc75069e1e08eb45c209763d6a7"
-    },
-    {
-      "id": "KP1BBA0B0789",
-      "console": "3DS",
-      "title": "세계수의 미궁 X",
-      "version": "1.0.4",
-      "author": "섹붕이",
-      "patch_date": "2026-11-04",
-      "registered_at": "2026-11-06",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/167dcb788a9a4ac95bae39c86f0c9ff8"
     },
     {
       "id": "KPEB17D236FA",
@@ -38649,17 +38198,6 @@
       "registered_at": "2026-11-06",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/cf08584e64e1ac378c9935d386045cc9"
-    },
-    {
-      "id": "KPAB478AE24D",
-      "console": "SFC",
-      "title": "신 귀신섬 후편",
-      "version": "1.1",
-      "author": "미지23",
-      "patch_date": "2026-11-06",
-      "registered_at": "2026-11-06",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/3df0108abe76eaaac630a7a8c34ace0d"
     },
     {
       "id": "KP3120D8AE5E",
@@ -38981,39 +38519,6 @@
       "url": "https://retrodb.info/krpatch/api/link/7af2610db0467479aaf1b0ae0cd7e0fb"
     },
     {
-      "id": "KP1F304FCBE1",
-      "console": "NDS",
-      "title": "유성의 록맨: 레오",
-      "version": "1.3.1",
-      "author": "QJ",
-      "patch_date": "2026-11-04",
-      "registered_at": "2026-11-07",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/854c049bc9abbaf6db6cb9973b7c6dff"
-    },
-    {
-      "id": "KP9F021E407B",
-      "console": "NDS",
-      "title": "유성의 록맨: 페가수스",
-      "version": "1.3.1",
-      "author": "QJ",
-      "patch_date": "2026-11-04",
-      "registered_at": "2026-11-07",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/b29f03c16d6cf6348c07bed1d3f14598"
-    },
-    {
-      "id": "KP9DEA138001",
-      "console": "NDS",
-      "title": "유성의 록맨: 드래곤",
-      "version": "1.3.1",
-      "author": "QJ",
-      "patch_date": "2026-11-04",
-      "registered_at": "2026-11-07",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/1ce5f187cc11db3178fd529e2c0197b8"
-    },
-    {
       "id": "KP6D0B637F7D",
       "console": "FC",
       "title": "다카하시 명인의 모험도 2",
@@ -39276,17 +38781,6 @@
       "registered_at": "2026-11-07",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/0b60068e90f2c0e736552d0bd2d99c3b"
-    },
-    {
-      "id": "KPA29F072E9F",
-      "console": "NDS",
-      "title": "에르미나쥬",
-      "version": "1.0",
-      "author": "QJ",
-      "patch_date": "2026-11-07",
-      "registered_at": "2026-11-07",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/9a14c467e928cf0e6f66eb0a90653760"
     },
     {
       "id": "KPB5FC923C60",
@@ -40224,17 +39718,6 @@
       "url": "https://retrodb.info/krpatch/api/link/d9c2d46b03619ceca96a8544a5ef0ee3"
     },
     {
-      "id": "KPE8A2785F92",
-      "console": "NDS",
-      "title": "에르미나쥬 2",
-      "version": "1.0.1",
-      "author": "QJ",
-      "patch_date": "2026-11-08",
-      "registered_at": "2026-11-09",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/1f73b34199b2d1fb72736ef106ae0711"
-    },
-    {
       "id": "KP2DF856A153",
       "console": "SFC",
       "title": "파이널 판타지 5",
@@ -40290,17 +39773,6 @@
       "url": "https://retrodb.info/krpatch/api/link/1707dee177594014311059aad4270d08"
     },
     {
-      "id": "KP6CA28420B4",
-      "console": "XBOX",
-      "title": "령 2: 붉은나비 디렉터즈 컷",
-      "version": "0.75",
-      "author": "GiKakNo",
-      "patch_date": "2026-11-09",
-      "registered_at": "2026-11-09",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/b789a4f9002916394d92a919945bb7f5"
-    },
-    {
       "id": "KP38E80BE6AC",
       "console": "PSP",
       "title": "다음 희생자를 알려드립니다 3권",
@@ -40310,17 +39782,6 @@
       "registered_at": "2026-11-09",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/13eb527cfef403e652cf5bd8e42bc563"
-    },
-    {
-      "id": "KP2CE211F8AA",
-      "console": "PS2",
-      "title": "레드 데드 리볼버",
-      "version": "1.0",
-      "author": "돈골",
-      "patch_date": "2026-11-09",
-      "registered_at": "2026-11-09",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/ce7feb92b883b146bd31fcc5e8c94878"
     },
     {
       "id": "KP55755BB148",
@@ -40840,17 +40301,6 @@
       "url": "https://retrodb.info/krpatch/api/link/1f0b67db9e2acc4799b35a1a5ad2d4bd"
     },
     {
-      "id": "KP024E701E60",
-      "console": "DC",
-      "title": "더 프로야구팀을 만들자!",
-      "version": "0.01",
-      "author": "꼬뱀",
-      "patch_date": "2026-11-10",
-      "registered_at": "2026-11-10",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/fa41dfd7962844ce11ba3832775a2866"
-    },
-    {
       "id": "KP8AF0DA1249",
       "console": "FC",
       "title": "북두의 권 4 칠성패권전",
@@ -41003,28 +40453,6 @@
       "registered_at": "2026-11-10",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/c60d22fa89198dca4f1dec669a3938ee"
-    },
-    {
-      "id": "KP720D628A4C",
-      "console": "NDS",
-      "title": "세계수의 미궁",
-      "version": "1.0",
-      "author": "섹붕이",
-      "patch_date": "2026-11-10",
-      "registered_at": "2026-11-10",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/053392a32d9432af422d90b98723f8de"
-    },
-    {
-      "id": "KP00FBDD97DB",
-      "console": "NDS",
-      "title": "세계수의 미궁 2",
-      "version": "1.0",
-      "author": "섹붕이",
-      "patch_date": "2026-11-10",
-      "registered_at": "2026-11-10",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/132a749aa045f8076e9bc8d8a0a8f521"
     },
     {
       "id": "KP8A8E387D1A",
@@ -41720,17 +41148,6 @@
       "url": "https://retrodb.info/krpatch/api/link/36b78cfb5288058d959f9389687b826e"
     },
     {
-      "id": "KP0BD5420BD5",
-      "console": "PS2",
-      "title": "와일드 암즈 5",
-      "version": "CP29",
-      "author": "꼬뱀",
-      "patch_date": "2026-11-11",
-      "registered_at": "2026-11-11",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/c5daafd339599124bf9a75bff7928354"
-    },
-    {
       "id": "KPD4F1D6CE61",
       "console": "PS2",
       "title": "바로크",
@@ -41984,17 +41401,6 @@
       "url": "https://retrodb.info/krpatch/api/link/df02ed32840a2c061b5b1934fb6c2282"
     },
     {
-      "id": "KPE1474A05E6",
-      "console": "SFC",
-      "title": "무사 청룡전",
-      "version": "0.8",
-      "author": "동글이아빠",
-      "patch_date": "2026-11-12",
-      "registered_at": "2026-11-12",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/3cf4d1571327196352537a1af920bb8e"
-    },
-    {
       "id": "KP3C7472D877",
       "console": "PS1",
       "title": "드래곤 퀘스트 7",
@@ -42026,50 +41432,6 @@
       "registered_at": "2026-11-12",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/d7bdda2fd69695aa7cb9d6bbd15517e9"
-    },
-    {
-      "id": "KPEB718EF73C",
-      "console": "FC",
-      "title": "비룡의 권 2",
-      "version": "1.3",
-      "author": "미지23",
-      "patch_date": "2026-11-12",
-      "registered_at": "2026-11-12",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/0d19e90068a8a3c816f6092c107045bc"
-    },
-    {
-      "id": "KP9E9668831E",
-      "console": "MDCD",
-      "title": "쉐도우런",
-      "version": "0.8.6",
-      "author": "동글이아빠",
-      "patch_date": "2026-11-12",
-      "registered_at": "2026-11-12",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/b8c62afce711877f224a069d90a7c0b1"
-    },
-    {
-      "id": "KPA314556F96",
-      "console": "GBC",
-      "title": "해리포터와 마법사의 돌",
-      "version": "0.8.1",
-      "author": "동글이아빠",
-      "patch_date": "2026-11-12",
-      "registered_at": "2026-11-12",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/f78fc0f210cfdbed04e30c0f7592bac4"
-    },
-    {
-      "id": "KPB7BC5CBAA3",
-      "console": "GBC",
-      "title": "해리포터와 비밀의 방",
-      "version": "0.8.1",
-      "author": "동글이아빠",
-      "patch_date": "2026-11-12",
-      "registered_at": "2026-11-12",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/30e739e0ea6216f4d24f79b1c9266f9d"
     },
     {
       "id": "KPEB08CD80AD",
@@ -42114,17 +41476,6 @@
       "registered_at": "2026-11-12",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/3706fd2a7093791a7de4424689072bd2"
-    },
-    {
-      "id": "KP9598A306E5",
-      "console": "PS2",
-      "title": "망국의 이지스 2035: 워쉽 거너",
-      "version": "1.1",
-      "author": "부끄지",
-      "patch_date": "2026-11-12",
-      "registered_at": "2026-11-12",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/e88a4c3c0cf3f23ae20854b8b11800ff"
     },
     {
       "id": "KP6DC40C6817",
@@ -42323,17 +41674,6 @@
       "registered_at": "2026-11-12",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/4cc94f3c2b094787a54232fbe96b36be"
-    },
-    {
-      "id": "KPE9941A9DAC",
-      "console": "PSP",
-      "title": "삼국지 9 with 파워업키트",
-      "version": "261110",
-      "author": "신선짱",
-      "patch_date": "2026-11-10",
-      "registered_at": "2026-11-12",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/acd1f2dc9dbcb7f0dd1e91cc0033bb1e"
     },
     {
       "id": "KPEC9263BC74",
@@ -42710,17 +42050,6 @@
       "url": "https://retrodb.info/krpatch/api/link/c1434d9c5e7a56202c841e02a59c9ac6"
     },
     {
-      "id": "KP5703054717",
-      "console": "PSP",
-      "title": "도쿄 모노하라시: 카라스노모리 학원 기담",
-      "version": "1.2",
-      "author": "부끄지",
-      "patch_date": "2026-11-13",
-      "registered_at": "2026-11-13",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/68a6017791bf815bdc8fe5c15aedba35"
-    },
-    {
       "id": "KP8DA191C7E2",
       "console": "SFC",
       "title": "파이널 판타지 6",
@@ -42875,28 +42204,6 @@
       "url": "https://retrodb.info/krpatch/api/link/4ca837c640be737deb9829c81ca0b463"
     },
     {
-      "id": "KPB2CCBB2D15",
-      "console": "NDS",
-      "title": "유성의 록맨 3: 레드 조커",
-      "version": "1.0.4.1",
-      "author": "QJ",
-      "patch_date": "2026-11-13",
-      "registered_at": "2026-11-13",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/1a22986748e73a0bfb51093d5a807351"
-    },
-    {
-      "id": "KP7597EAE5DB",
-      "console": "NDS",
-      "title": "유성의 록맨 3: 블랙 에이스",
-      "version": "1.0.4.1",
-      "author": "QJ",
-      "patch_date": "2026-11-13",
-      "registered_at": "2026-11-13",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/1a8af0797e72659a533289447bd71838"
-    },
-    {
       "id": "KPB320070292",
       "console": "SS",
       "title": "도어: 정령왕기전",
@@ -42994,17 +42301,6 @@
       "registered_at": "2026-11-13",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/8ea314335da84e90c6c5706a3e822092"
-    },
-    {
-      "id": "KPFD439F4160",
-      "console": "SS",
-      "title": "루나 2 이터널 블루",
-      "version": "1.0",
-      "author": "미지23",
-      "patch_date": "2026-11-13",
-      "registered_at": "2026-11-13",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/15159cca4dc593c5aa9ca1736c5947b2"
     },
     {
       "id": "KP74EE736026",
@@ -43205,17 +42501,6 @@
       "url": "https://retrodb.info/krpatch/api/link/fd958acd348817dacb5dc538cb6ae4a8"
     },
     {
-      "id": "KPD63D36C51E",
-      "console": "PS2",
-      "title": "체인즈 오브 파워",
-      "version": "CP10",
-      "author": "꼬뱀",
-      "patch_date": "2026-11-14",
-      "registered_at": "2026-11-14",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/fcf445b7e05ac715b57fe035ae89dd93"
-    },
-    {
       "id": "KP19EE1506C1",
       "console": "FC",
       "title": "깜짝 열혈신기록! 아득한 금메달",
@@ -43269,17 +42554,6 @@
       "registered_at": "2026-11-14",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/57ad5834ae7f2049cd0790348918c696"
-    },
-    {
-      "id": "KP3DE611A42D",
-      "console": "NDS",
-      "title": "샨테 리스키의 복수",
-      "version": "1.0",
-      "author": "미지23",
-      "patch_date": "2026-11-14",
-      "registered_at": "2026-11-14",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/4c34dd8baf620645ef30e890d6d35249"
     },
     {
       "id": "KP010DBC8BB3",
@@ -43537,7 +42811,7 @@
     {
       "id": "KPC34C95E0FA",
       "console": "PS2",
-      "title": "﻿ 헝그리 고스트",
+      "title": "헝그리 고스트",
       "version": "CP16",
       "author": "꼬뱀",
       "patch_date": "2026-11-14",
@@ -43621,17 +42895,6 @@
       "registered_at": "2026-11-15",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/f228982c67386e593205a1db067eca8b"
-    },
-    {
-      "id": "KP15AB910BA7",
-      "console": "FC",
-      "title": "파이널 판타지 3",
-      "version": "1.21",
-      "author": "퇴사는 나의 꿈",
-      "patch_date": "2026-11-15",
-      "registered_at": "2026-11-15",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/0410283149239c353d88f1396651c45e"
     },
     {
       "id": "KP3E8E7FF2FE",
@@ -43931,28 +43194,6 @@
       "url": "https://retrodb.info/krpatch/api/link/0e057056763e73f0bcda4fed8e5b1d3b"
     },
     {
-      "id": "KP8525356D28",
-      "console": "PS2",
-      "title": "노부나가의 야망 창천록 with 파워업 키트",
-      "version": "1.7",
-      "author": "부끄지",
-      "patch_date": "2026-11-15",
-      "registered_at": "2026-11-15",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/0de786358f3decf3d59dd359c4108bc7"
-    },
-    {
-      "id": "KPE34DCCDB8E",
-      "console": "NDS",
-      "title": "비색의 조각 DS",
-      "version": "1.0",
-      "author": "end",
-      "patch_date": "2026-11-15",
-      "registered_at": "2026-11-15",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/ffff5be91aa7b73be4fbfcf66ffc3c34"
-    },
-    {
       "id": "KP9CFE18612B",
       "console": "GB",
       "title": "누보",
@@ -43962,17 +43203,6 @@
       "registered_at": "2026-11-15",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/41d2d3e44595f0ac10b91ed913281346"
-    },
-    {
-      "id": "KPCC162668F8",
-      "console": "PS1",
-      "title": "악마성 드라큘라: 월하의 야상곡 얼티메이트",
-      "version": "1.4.1",
-      "author": "강유",
-      "patch_date": "2026-11-15",
-      "registered_at": "2026-11-15",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/7513a3587d7262eb35ed8d5e729db7ec"
     },
     {
       "id": "KP75CB05B1E5",
@@ -44028,17 +43258,6 @@
       "registered_at": "2026-11-15",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/2be3dd77dbe384d95ce6a03635424868"
-    },
-    {
-      "id": "KPC6999055D7",
-      "console": "XBOX360",
-      "title": "아이돌 마스터",
-      "version": "261115",
-      "author": "rnrmfdlapdlf",
-      "patch_date": "2026-11-15",
-      "registered_at": "2026-11-15",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/906b4215d40e0d834d26b5affb95b944"
     },
     {
       "id": "KP7EA86F68E2",
@@ -44415,17 +43634,6 @@
       "url": "https://retrodb.info/krpatch/api/link/ce7366e5f14ca372f7dc4e9ffb836ae6"
     },
     {
-      "id": "KPE03124D1C3",
-      "console": "XBOX360",
-      "title": "에이리언 vs 프레데터",
-      "version": "1.00",
-      "author": "cbble",
-      "patch_date": "2026-11-16",
-      "registered_at": "2026-11-16",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/315afdf3cf53b0c73262be00af77831c"
-    },
-    {
       "id": "KPAF30A8D102",
       "console": "PS2",
       "title": "아크 더 래드 제너레이션",
@@ -44457,17 +43665,6 @@
       "registered_at": "2026-11-16",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/1759731f45a82172c330b345722d4ba1"
-    },
-    {
-      "id": "KP66E84B377A",
-      "console": "NDS",
-      "title": "메탈 맥스 2 리로디드",
-      "version": "1.1.1.1",
-      "author": "QJ",
-      "patch_date": "2026-11-12",
-      "registered_at": "2026-11-16",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/21177b2dc0dc956c3dfa84ee84c5eebb"
     },
     {
       "id": "KPA855D6955D",
@@ -44655,17 +43852,6 @@
       "registered_at": "2026-11-16",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/7a580d5726483341336fcd499059a58f"
-    },
-    {
-      "id": "KP6477F1CBED",
-      "console": "SFC",
-      "title": "리조이스: 아레사 외전",
-      "version": "0.8A",
-      "author": "동글이아빠",
-      "patch_date": "2026-11-16",
-      "registered_at": "2026-11-16",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/30cb9e4c66c4ac3417b27416cc4b6a33"
     },
     {
       "id": "KPB7D9276811",
@@ -45056,7 +44242,7 @@
       "id": "KPFC26FB82F4",
       "console": "PSV",
       "title": "건어물 여동생! 우마루짱: 건어물 여동생! 육성 계획",
-      "version": "1.0",
+      "version": "1.01",
       "author": "TuNE",
       "patch_date": "2026-11-17",
       "registered_at": "2026-11-17",
@@ -45227,17 +44413,6 @@
       "registered_at": "2026-11-17",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/5f4c3a192c28f011db1031362a3266c4"
-    },
-    {
-      "id": "KP8223B0AFDF",
-      "console": "PSP",
-      "title": "샤이닝 하츠",
-      "version": "0.9.1",
-      "author": "NP",
-      "patch_date": "2026-11-17",
-      "registered_at": "2026-11-17",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/30f28a7549d7af3b7fb3fea04bce2b8f"
     },
     {
       "id": "KP3620C29143",
@@ -45546,17 +44721,6 @@
       "registered_at": "2026-11-18",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/ec4666e7d13c85fdc47fadb65c310c8d"
-    },
-    {
-      "id": "KP4A93AE4DAC",
-      "console": "PSP",
-      "title": "하야리가미",
-      "version": "1.2",
-      "author": "삼색이냥",
-      "patch_date": "2026-11-18",
-      "registered_at": "2026-11-18",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/e15669217ade62128a6f342973538dad"
     },
     {
       "id": "KP475DD560BA",
@@ -45944,17 +45108,6 @@
       "url": "https://retrodb.info/krpatch/api/link/05aeee88b499a39f9a2f4177e3d5363d"
     },
     {
-      "id": "KP26E0C0ECEA",
-      "console": "FC",
-      "title": "마더",
-      "version": "1.2",
-      "author": "부끄지",
-      "patch_date": "2026-11-18",
-      "registered_at": "2026-11-18",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/e45d09db1a6ce84c02d56bb4f6d06787"
-    },
-    {
       "id": "KP5F74162E8E",
       "console": "PSV",
       "title": "전격문고 파이팅 클라이맥스",
@@ -46041,17 +45194,6 @@
       "registered_at": "2026-11-18",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/e98befda0ea8e5fbfff0f4189ee9e35e"
-    },
-    {
-      "id": "KP5B3AEF5492",
-      "console": "FC",
-      "title": "파이어 엠블렘: 암흑룡과 빛의 검",
-      "version": "1.3",
-      "author": "동릇",
-      "patch_date": "2026-11-18",
-      "registered_at": "2026-11-18",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/a769b0d8555a3069d28dd1579bf8a7ab"
     },
     {
       "id": "KP4A4066BAE3",
@@ -46228,17 +45370,6 @@
       "registered_at": "2026-11-18",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/4105f92626d0a76fca9885fb0bcc3a95"
-    },
-    {
-      "id": "KPC6080E3450",
-      "console": "GBA",
-      "title": "슈퍼로봇대전 J",
-      "version": "2.7.2",
-      "author": "부끄지",
-      "patch_date": "2026-11-18",
-      "registered_at": "2026-11-18",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/a6352ad3e64e96a8c538e30fd6adc27f"
     },
     {
       "id": "KP2D611890EE",
@@ -46461,17 +45592,6 @@
       "url": "https://retrodb.info/krpatch/api/link/eb517a06f4bac66ae1132c9026dbeb0e"
     },
     {
-      "id": "KP814BD2C16E",
-      "console": "SFC",
-      "title": "망량전기 마다라 2",
-      "version": "0.9G",
-      "author": "동글이아빠",
-      "patch_date": "2026-11-16",
-      "registered_at": "2026-11-19",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/f8e53d59294d176c54d120d7edcfdb52"
-    },
-    {
       "id": "KP7F63C7F262",
       "console": "PS1",
       "title": "브레스 오브 파이어 3",
@@ -46536,17 +45656,6 @@
       "registered_at": "2026-11-19",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/f1047c63ce3a2c86366ed871de3b45b9"
-    },
-    {
-      "id": "KP2B95CDC074",
-      "console": "PS1",
-      "title": "성검전설 레전드 오브 마나",
-      "version": "20261119FIX",
-      "author": "꼬뱀",
-      "patch_date": "2026-11-19",
-      "registered_at": "2026-11-19",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/ed8cc2226d68bb5aa902be0da19ae0f1"
     },
     {
       "id": "KP715D167FA9",
@@ -46639,7 +45748,7 @@
     {
       "id": "KP93F9676757",
       "console": "PS2",
-      "title": "근육맨 머슬 그랑프리2 특상",
+      "title": "근육맨 머슬 그랑프리 2 특상",
       "version": "1.3",
       "author": "부끄지",
       "patch_date": "2026-11-19",
@@ -46712,17 +45821,6 @@
       "registered_at": "2026-11-19",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/874fa544dca3783273bca13fde22bd5c"
-    },
-    {
-      "id": "KP2B24DB5C61",
-      "console": "PS1",
-      "title": "티어링사가 유토나영웅전기",
-      "version": "0.91",
-      "author": "찮",
-      "patch_date": "2026-11-19",
-      "registered_at": "2026-11-19",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/b143b3427891b776ad559fc4b4976eab"
     },
     {
       "id": "KPBFDFDF73E1",
@@ -46844,28 +45942,6 @@
       "registered_at": "2026-11-19",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/61d113e5a895cfedaa2a32e1f01690a0"
-    },
-    {
-      "id": "KPE013D43874",
-      "console": "PS3",
-      "title": "미드나이트 클럽: LA 컴플리트 에디션",
-      "version": "0.9.0",
-      "author": "BNR34",
-      "patch_date": "2026-11-19",
-      "registered_at": "2026-11-19",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/110fe42e41dbe46a984526d915c5e27d"
-    },
-    {
-      "id": "KP0A69B6F08F",
-      "console": "XBOX360",
-      "title": "미드나이트 클럽: LA 컴플리트 에디션",
-      "version": "0.9.0",
-      "author": "BNR34",
-      "patch_date": "2026-11-19",
-      "registered_at": "2026-11-19",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/87f60ea0e4cbcea001902d0409d783e8"
     },
     {
       "id": "KPFB27F3ED8D",
@@ -47077,17 +46153,6 @@
       "url": "https://retrodb.info/krpatch/api/link/4189eddfd0553b1951161983cd05ab93"
     },
     {
-      "id": "KP698B599EE1",
-      "console": "SFC",
-      "title": "망량전기 마다라 2",
-      "version": "1.12",
-      "author": "토마토풀",
-      "patch_date": "2026-11-19",
-      "registered_at": "2026-11-20",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/550cb8985be6614c3a415e3682b8ade6"
-    },
-    {
       "id": "KP1BC5CEAAE0",
       "console": "SFC",
       "title": "메탈 슬레이더 글로리: 디렉터즈 컷",
@@ -47165,17 +46230,6 @@
       "url": "https://retrodb.info/krpatch/api/link/ed20dee58e1be1b328cee9d7e97c29cd"
     },
     {
-      "id": "KP7FE6C921B5",
-      "console": "SFC",
-      "title": "로스트 바이킹",
-      "version": "1.0",
-      "author": "미지23",
-      "patch_date": "2026-11-20",
-      "registered_at": "2026-11-20",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/1d697ce0247f39813fa62727d310be61"
-    },
-    {
       "id": "KP28743B89D3",
       "console": "PC98",
       "title": "캉캉바니 엑스트라",
@@ -47185,28 +46239,6 @@
       "registered_at": "2026-11-20",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/c572aa76f7af467b8ae275fc335fc6d6"
-    },
-    {
-      "id": "KP364F254B86",
-      "console": "SFC",
-      "title": "드래곤 퀘스트 3",
-      "version": "1.09",
-      "author": "퇴사는 나의 꿈",
-      "patch_date": "2026-11-20",
-      "registered_at": "2026-11-20",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/27c346cf413e61dc1824d35d343f4035"
-    },
-    {
-      "id": "KP83751DFD36",
-      "console": "SS",
-      "title": "피아캐롯에 어서오세요",
-      "version": "1.0",
-      "author": "쬬쬬리",
-      "patch_date": "2026-11-20",
-      "registered_at": "2026-11-20",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/ff843b742744f227c211efb0a8c91138"
     },
     {
       "id": "KP83059DCFFE",
@@ -47295,28 +46327,6 @@
       "registered_at": "2026-11-20",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/4bab31b9109bac9e03109a1ec01e81b3"
-    },
-    {
-      "id": "KP2BC21EFA5C",
-      "console": "PCECD",
-      "title": "이스 1 & 2",
-      "version": "1.25",
-      "author": "이올로",
-      "patch_date": "2026-11-20",
-      "registered_at": "2026-11-20",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/f8b4d151298ef79382061ce0333d3446"
-    },
-    {
-      "id": "KP1680E98594",
-      "console": "SFC",
-      "title": "드래곤 퀘스트 6",
-      "version": "0.9",
-      "author": "퇴사는 나의 꿈",
-      "patch_date": "2026-11-20",
-      "registered_at": "2026-11-20",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/004d8f3459c52e10a7f9531c66323cfe"
     },
     {
       "id": "KP7E356DB8CE",
@@ -47416,17 +46426,6 @@
       "registered_at": "2026-11-20",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/acd9891b2083b73ad367825543c83d45"
-    },
-    {
-      "id": "KP03DB21229F",
-      "console": "PSP",
-      "title": "대전략 포터블 2",
-      "version": "1.0",
-      "author": "부끄지",
-      "patch_date": "2026-11-20",
-      "registered_at": "2026-11-20",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/71320a60d2ebf4013b67e93c070e491c"
     },
     {
       "id": "KPC498E293C5",
@@ -47682,28 +46681,6 @@
       "url": "https://retrodb.info/krpatch/api/link/bde1cfd08e4ae1b5716c2c6860f46cb6"
     },
     {
-      "id": "KPE9D5D80F9D",
-      "console": "SFC",
-      "title": "듀얼 오브: 성령주 전설",
-      "version": "1.0",
-      "author": "미지23",
-      "patch_date": "2026-11-21",
-      "registered_at": "2026-11-21",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/363a8a1384d5ba1c25d0b1a999da4f40"
-    },
-    {
-      "id": "KP282846C20A",
-      "console": "XBOX",
-      "title": "환마 귀무자",
-      "version": "0.8",
-      "author": "GiKakNo",
-      "patch_date": "2026-11-21",
-      "registered_at": "2026-11-21",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/66deaf0aac38096b066d032f465bff06"
-    },
-    {
       "id": "KP446E75611A",
       "console": "WII",
       "title": "별의 커비 20주년 스페셜 컬렉션",
@@ -47726,17 +46703,6 @@
       "url": "https://retrodb.info/krpatch/api/link/b8cff7978ca23ea78326121cc65cea1f"
     },
     {
-      "id": "KP2DA8AEB83C",
-      "console": "NDS",
-      "title": "팀 바티스타의 영광: 진실을 엮는 4개의 차트",
-      "version": "0.9.1",
-      "author": "Dansic",
-      "patch_date": "2026-11-21",
-      "registered_at": "2026-11-21",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/069cade60e724e824cd0fafb3f0cabaa"
-    },
-    {
       "id": "KP099CC5A7B9",
       "console": "NDS",
       "title": "샤이닝 포스 페더",
@@ -47746,17 +46712,6 @@
       "registered_at": "2026-11-21",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/02a7d80ac92c3195ffea4cf2c8c0b0e3"
-    },
-    {
-      "id": "KP87B4B8E0C1",
-      "console": "DC",
-      "title": "디노 크라이시스",
-      "version": "0.8",
-      "author": "GiKakNo",
-      "patch_date": "2026-11-21",
-      "registered_at": "2026-11-21",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/60801a610463d5ff4a7c3a1879be0d51"
     },
     {
       "id": "KP8ACA412984",
@@ -47779,17 +46734,6 @@
       "registered_at": "2026-11-21",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/30b02925562142db9b8c2157e5a8694e"
-    },
-    {
-      "id": "KPCC5A697A8B",
-      "console": "NDS",
-      "title": "주식 트레이더 슌",
-      "version": "0.8.1",
-      "author": "Dansic",
-      "patch_date": "2026-11-21",
-      "registered_at": "2026-11-21",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/58a1d4e7855a1f123e7cb91a579ab6b3"
     },
     {
       "id": "KP66088E8DB5",
@@ -47880,17 +46824,6 @@
       "url": "https://retrodb.info/krpatch/api/link/06abf8a94b6434b546bcad450825cf70"
     },
     {
-      "id": "KP5E28BD90FD",
-      "console": "NDS",
-      "title": "불타라! 열혈 리듬 혼: 아자! 싸워라! 응원단 2",
-      "version": "1.2",
-      "author": "sizz1214-lang",
-      "patch_date": "2026-11-21",
-      "registered_at": "2026-11-21",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/d6d74a6508bb27c8c402028b55e753e6"
-    },
-    {
       "id": "KP9DC873AE7A",
       "console": "PSP",
       "title": "용사 30 세컨드",
@@ -47946,17 +46879,6 @@
       "url": "https://retrodb.info/krpatch/api/link/e05482f3c51be14c6ff939bc0c23e83c"
     },
     {
-      "id": "KP04C9598637",
-      "console": "NDS",
-      "title": "메탈 맥스 3",
-      "version": "1.0.1.1",
-      "author": "QJ",
-      "patch_date": "2026-11-21",
-      "registered_at": "2026-11-21",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/a932ad4de48d229d536de67204a7b2d6"
-    },
-    {
       "id": "KP4BE1E201FF",
       "console": "GBA",
       "title": "포켓몬 팀 로켓 에디션",
@@ -47979,28 +46901,6 @@
       "url": "https://retrodb.info/krpatch/api/link/132b1957c10515fe105e777c364ad575"
     },
     {
-      "id": "KPE8FE134EE5",
-      "console": "GBA",
-      "title": "진 여신전생 데빌 칠드런 빛의 서",
-      "version": "1.1",
-      "author": "미지23",
-      "patch_date": "2026-11-21",
-      "registered_at": "2026-11-21",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/42b9748817e76b2c5e7acc14f27b13ee"
-    },
-    {
-      "id": "KP1B5340AE51",
-      "console": "SFC",
-      "title": "카드 마스터",
-      "version": "0.1",
-      "author": "무상",
-      "patch_date": "2026-11-21",
-      "registered_at": "2026-11-21",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/6cfcf5668e962cc8b617dcd40f511baa"
-    },
-    {
       "id": "KP071BC19A13",
       "console": "XBOX360",
       "title": "드래곤 에이지 오리진",
@@ -48010,28 +46910,6 @@
       "registered_at": "2026-11-21",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/9732c4f2f637fe5398463902abb8ebb7"
-    },
-    {
-      "id": "KPFB4F2FB21D",
-      "console": "NDS",
-      "title": "이나즈마 일레븐",
-      "version": "1.0.6.3",
-      "author": "QJ",
-      "patch_date": "2026-11-21",
-      "registered_at": "2026-11-21",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/a3e6db3b200055f2ed0ba6f27ac6b013"
-    },
-    {
-      "id": "KP31BA829899",
-      "console": "PS2",
-      "title": "신선조 군랑전",
-      "version": "FIX20261121",
-      "author": "꼬뱀",
-      "patch_date": "2026-11-21",
-      "registered_at": "2026-11-21",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/ca26b6a771c5bc398c8907dcd4a5c1a4"
     },
     {
       "id": "KP5CE651F9AC",
@@ -48065,17 +46943,6 @@
       "registered_at": "2026-11-21",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/a91b175f8a73a6848c481c9ed3d3597a"
-    },
-    {
-      "id": "KPA2DBE3D08C",
-      "console": "PS1",
-      "title": "페다 2: 화이트 서지 더 플래툰",
-      "version": "1.3",
-      "author": "부끄지",
-      "patch_date": "2026-11-21",
-      "registered_at": "2026-11-21",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/2decdf06f643dadda1dd8f5083923bf0"
     },
     {
       "id": "KPC00696068D",
@@ -48144,17 +47011,6 @@
       "url": "https://retrodb.info/krpatch/api/link/850edd63953869813c3a1d7a4b1ccfd2"
     },
     {
-      "id": "KPE514A24137",
-      "console": "PS2",
-      "title": "삼국지 11 with 파워업 키트",
-      "version": "0.97fix",
-      "author": "hospi",
-      "patch_date": "2026-11-21",
-      "registered_at": "2026-11-22",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/c55e5530fa83651f4df329eb3ff964a2"
-    },
-    {
       "id": "KP8643B67893",
       "console": "WII",
       "title": "기동전사 건담 MS전선 0079",
@@ -48166,28 +47022,6 @@
       "url": "https://retrodb.info/krpatch/api/link/d607681b7f346bc9de6d1ae0a0cc4a27"
     },
     {
-      "id": "KP8B814740A6",
-      "console": "PS1",
-      "title": "파이널 판타지 택틱스",
-      "version": "0.93",
-      "author": "퇴사는 나의 꿈",
-      "patch_date": "2026-11-22",
-      "registered_at": "2026-11-22",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/9759b26541b994742dce5bfa45260ce2"
-    },
-    {
-      "id": "KP80764D44C7",
-      "console": "SFC",
-      "title": "제4차 슈퍼로봇대전",
-      "version": "0.8",
-      "author": "yoolose",
-      "patch_date": "2026-11-22",
-      "registered_at": "2026-11-22",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/892b1a3cc33b1400f91cfb4ae9681975"
-    },
-    {
       "id": "KPBD678B875C",
       "console": "SS",
       "title": "하급생",
@@ -48197,28 +47031,6 @@
       "registered_at": "2026-11-22",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/ad3fd8ba6dd83e98ed2e0932c7f3d869"
-    },
-    {
-      "id": "KP70DA6CD58C",
-      "console": "SFC",
-      "title": "미스틱 아크",
-      "version": "1.6",
-      "author": "미지23",
-      "patch_date": "2026-11-22",
-      "registered_at": "2026-11-22",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/08ea3b7dccd5ddc4ea0409bbf865d49e"
-    },
-    {
-      "id": "KPE56BC0E7AB",
-      "console": "PS1",
-      "title": "악마성 드라큘라: 월하의 야상곡 얼티메이트",
-      "version": "2.1.3",
-      "author": "칸스",
-      "patch_date": "2026-11-22",
-      "registered_at": "2026-11-22",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/8e6c0cf752cff9bb8b5e9e3cd1953b46"
     },
     {
       "id": "KPB920B08F9E",
@@ -48241,17 +47053,6 @@
       "registered_at": "2026-11-22",
       "status": "배포중",
       "url": "https://retrodb.info/krpatch/api/link/e6c9bddb8ea597d146ed387768db833a"
-    },
-    {
-      "id": "KP1F5115F5DC",
-      "console": "SS",
-      "title": "바로크",
-      "version": "0.9b",
-      "author": "한마루",
-      "patch_date": "2026-11-22",
-      "registered_at": "2026-11-22",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/dc48f5af6a98deeb440705ca6c46538a"
     },
     {
       "id": "KPB968BC9B30",
@@ -48342,39 +47143,6 @@
       "url": "https://retrodb.info/krpatch/api/link/cc90297ce39fc78d08e58cbbf876f2ac"
     },
     {
-      "id": "KP9B9E278EBC",
-      "console": "PS2",
-      "title": "건",
-      "version": "34",
-      "author": "꼬뱀",
-      "patch_date": "2026-11-22",
-      "registered_at": "2026-11-22",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/4ba1dfdf8fe5a797b0770e6316f1d362"
-    },
-    {
-      "id": "KPBE56916657",
-      "console": "NG",
-      "title": "통쾌 간간 행진곡",
-      "version": "1.0",
-      "author": "꿀렁이",
-      "patch_date": "2026-11-22",
-      "registered_at": "2026-11-22",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/1f84f4dea5960d38d951405b584ae628"
-    },
-    {
-      "id": "KP5A72A476A9",
-      "console": "NDS",
-      "title": "드래곤 퀘스트 9",
-      "version": "261122",
-      "author": "ep7oy",
-      "patch_date": "2026-11-22",
-      "registered_at": "2026-11-22",
-      "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/a1295fc1add2a25fe13b969593038bb4"
-    },
-    {
       "id": "KPAA78C781C9",
       "console": "PS2",
       "title": "엑스맨 레전드",
@@ -48386,26 +47154,2468 @@
       "url": "https://retrodb.info/krpatch/api/link/ebdb53fef0333c15b1e68004543bbd95"
     },
     {
-      "id": "KP8ECB7737DA",
+      "id": "KPF1C7C0FB67",
       "console": "PS2",
-      "title": "프로야구 스피리츠 6",
-      "version": "1.4",
-      "author": "부끄지",
+      "title": "유희왕GX 태그포스 에볼루션",
+      "version": "1.0",
+      "author": "길잃은비둘기",
       "patch_date": "2026-11-22",
       "registered_at": "2026-11-22",
       "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/08ffd19c306de5955af4bbfe3259f6d6"
+      "url": "https://retrodb.info/krpatch/api/link/ff2dce559d57aaa5d419612bee1ccdb9"
     },
     {
-      "id": "KP977CD908A8",
+      "id": "KP0DC41F4A93",
+      "console": "NG",
+      "title": "더블 드래곤",
+      "version": "1.0",
+      "author": "꿀렁이",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/619daa464bb06fe53378654c8a8adf25"
+    },
+    {
+      "id": "KP49E0E73AAB",
+      "console": "SFC",
+      "title": "파이널 판타지 6",
+      "version": "2.3",
+      "author": "일하기싫은아재",
+      "patch_date": "2026-11-05",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/3086c6d7993c51076677c9c6f00311cf"
+    },
+    {
+      "id": "KP4CCE9B38E6",
+      "console": "WIIU",
+      "title": "좀비U",
+      "version": "1.0",
+      "author": "미지23",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/db611c3824f9131ccca40fd79f02361f"
+    },
+    {
+      "id": "KP5172E1CEFC",
+      "console": "NDS",
+      "title": "이나즈마 일레븐",
+      "version": "1.0.6.4",
+      "author": "QJ",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/96e32295ec2f9d05160689bb0454e398"
+    },
+    {
+      "id": "KPB97D7B426B",
+      "console": "NDS",
+      "title": "팀 바티스타의 영광: 진실을 엮는 4개의 차트",
+      "version": "0.9.2",
+      "author": "Dansic",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/4e583337990fcef50bd9d8962a40cca5"
+    },
+    {
+      "id": "KPAB26DD751D",
+      "console": "MSX2",
+      "title": "그램 캣츠",
+      "version": "1.0",
+      "author": "셀리카",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/7cf86833732c7a17d5ff5ace937b2a09"
+    },
+    {
+      "id": "KP318EEFDFA2",
+      "console": "PS1",
+      "title": "미이라",
+      "version": "1.0",
+      "author": "산양신화",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/b119a9314fdf5b3d641ff03b565b36f0"
+    },
+    {
+      "id": "KPF21EA0B1B5",
+      "console": "PS2",
+      "title": "디지몬 월드 X",
+      "version": "B09",
+      "author": "꼬뱀",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/3989609b388908237f06bc29bea5be77"
+    },
+    {
+      "id": "KP0E3EFF0366",
+      "console": "PCECD",
+      "title": "기장 루가 2",
+      "version": "0.8.5",
+      "author": "동글이아빠",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/693be98d57f4d75a814f3d11158882ac"
+    },
+    {
+      "id": "KPC4B9E1B13F",
       "console": "PS3",
       "title": "스플린터 셀 트릴로지",
-      "version": "1.1",
+      "version": "1.2",
       "author": "용가리",
       "patch_date": "2026-11-22",
       "registered_at": "2026-11-22",
       "status": "배포중",
-      "url": "https://retrodb.info/krpatch/api/link/40190d4534b0be3d3cfe12b86ad41ba4"
+      "url": "https://retrodb.info/krpatch/api/link/3ee68aadfe6a8545581fb39bc4d53714"
+    },
+    {
+      "id": "KP87C25F1232",
+      "console": "SS",
+      "title": "바로크",
+      "version": "1.0",
+      "author": "한마루",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/8a870c084300a059df387ac99b54cfd0"
+    },
+    {
+      "id": "KPD2FDBE5931",
+      "console": "SFC",
+      "title": "유유백서 파이널: 마계최강열전",
+      "version": "1.0F",
+      "author": "꽃송아지",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/bdb27d699c3d05afbb3273e049ffc8eb"
+    },
+    {
+      "id": "KPEEC0F6E918",
+      "console": "MD",
+      "title": "공작왕 2: 환영성",
+      "version": "1.0",
+      "author": "꽃송아지",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/13c7b25f56cfb49723c7a24236b3102c"
+    },
+    {
+      "id": "KP5C1E0D90BD",
+      "console": "SS",
+      "title": "코드R",
+      "version": "0.9",
+      "author": "hospi",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/8d1992aea44771864a632c1cb5873840"
+    },
+    {
+      "id": "KPEF4A2562CB",
+      "console": "DC",
+      "title": "디노 크라이시스",
+      "version": "0.81",
+      "author": "GiKakNo",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/a998740751568a20bb55004c7869e830"
+    },
+    {
+      "id": "KP03F280E7CD",
+      "console": "PC98",
+      "title": "성소녀전대 레이커즈",
+      "version": null,
+      "author": "칠요회",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/cd160d48994f140b03b847e0064cbf47"
+    },
+    {
+      "id": "KP9E887FA7C9",
+      "console": "PS1",
+      "title": "폭조 일본열도",
+      "version": "1.0",
+      "author": "아카레인저",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/e60cae0f09998c5d99a286352cabfbcf"
+    },
+    {
+      "id": "KP13AA7F8D7C",
+      "console": "XBOX360",
+      "title": "에이스 컴뱃 6",
+      "version": "1.3.1b",
+      "author": "KOZAK",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/d78b21046c71d77cae6a43e9c599d873"
+    },
+    {
+      "id": "KPCA2DEB0549",
+      "console": "PCE",
+      "title": "드루아가의 탑",
+      "version": "1.0",
+      "author": "까치의 꿈",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/69a89abb1945fb7aeda42b80ff99e6e2"
+    },
+    {
+      "id": "KP57D5855403",
+      "console": "PS2",
+      "title": "미이라 리턴즈",
+      "version": "1.0",
+      "author": "산양신화",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/8ec5de487f2d1e90966ab262aee8c363"
+    },
+    {
+      "id": "KPC09F645D8F",
+      "console": "NG",
+      "title": "통쾌 간간 행진곡",
+      "version": "1.0 2611221751",
+      "author": "꿀렁이",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/09fe81a4e90f9e65737eea7bfb907222"
+    },
+    {
+      "id": "KPA10B1C1069",
+      "console": "SS",
+      "title": "마도물어 I",
+      "version": "2.0.0",
+      "author": "mcpads",
+      "patch_date": "2026-10-04",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/54997f623ed679c57dab24b81424600d"
+    },
+    {
+      "id": "KP149DAE5E99",
+      "console": "PSV",
+      "title": "하나야마타 요사코이 LIVE!",
+      "version": "0.9.1",
+      "author": "TuNE",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/6ef3c4652412cc74f5fa1d914ee5a8bd"
+    },
+    {
+      "id": "KPBCA392FF27",
+      "console": "ARCADE",
+      "title": "사무라이 스피리츠: 천하제일검객전",
+      "version": "1.0",
+      "author": "꿀렁이",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/d45a7d4c13a405d73b69ff771f5cf553"
+    },
+    {
+      "id": "KP810AB0ADD9",
+      "console": "PS2",
+      "title": "그란 투리스모 3: A-Spec",
+      "version": "0.6",
+      "author": "퍼스트버튼",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/dca23989f8e7993974850da5d60300dc"
+    },
+    {
+      "id": "KP1C07B51D2A",
+      "console": "GBA",
+      "title": "택틱스 오우거 외전 로디스의 기사",
+      "version": "1.0",
+      "author": "TeeTeeTee",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/38da2c813fe90549f9e3051fb51a54ee"
+    },
+    {
+      "id": "KP7766FFA560",
+      "console": "SS",
+      "title": "D의 식탁",
+      "version": "0.9",
+      "author": "hospi",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/3653ef8e0b1973d20e6b2279fa330625"
+    },
+    {
+      "id": "KP9DEFF2EDD4",
+      "console": "PS2",
+      "title": "링 오브 레드",
+      "version": "0.7",
+      "author": "흐음",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/0de7c2179619a20562cfb938e7384dd6"
+    },
+    {
+      "id": "KPCA6E5E48A5",
+      "console": "SFC",
+      "title": "프로 사커",
+      "version": "0.1",
+      "author": "머리머리",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/bd4f5f6b5cf123606662dffa8388146e"
+    },
+    {
+      "id": "KP37EE342042",
+      "console": "XBOX",
+      "title": "환마 귀무자",
+      "version": "0.804",
+      "author": "GiKakNo",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/133cb4ffb4838493a98ae01aa42a15aa"
+    },
+    {
+      "id": "KPE6B5B15178",
+      "console": "PS2",
+      "title": "뷰티풀 죠",
+      "version": "1.0.1",
+      "author": "방랑자",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/fbabed75a73d2411e47e9a76f8097222"
+    },
+    {
+      "id": "KP83878D8D9C",
+      "console": "SFC",
+      "title": "로스트 바이킹",
+      "version": "1.1",
+      "author": "미지23",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/62db4e5f45cfd69098a52da8c2ebd9be"
+    },
+    {
+      "id": "KP25012A58E0",
+      "console": "SFC",
+      "title": "엘파리아",
+      "version": "1.1",
+      "author": "미지23",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/f05670dfdc1a5f7d45699d21bca4a5f6"
+    },
+    {
+      "id": "KP9DAF7B0F91",
+      "console": "PS1",
+      "title": "악마성 드라큘라 X: 월하의 야상곡",
+      "version": "0.9b",
+      "author": "한마루",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/6cc451d931e323c4f46eca3486e8b2fb"
+    },
+    {
+      "id": "KP0625EB722D",
+      "console": "GG",
+      "title": "샤이닝 포스 외전: 파이널 컨플릭트",
+      "version": "0.9.1",
+      "author": "드르렁쿠우",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/71ffb5017cfd3a129e3330186a48553e"
+    },
+    {
+      "id": "KP68B64B101D",
+      "console": "PS2",
+      "title": "와일드 암즈 5",
+      "version": "CP29 HF10",
+      "author": "꼬뱀",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/b5b6626270226558d36cb296a77ad89a"
+    },
+    {
+      "id": "KP16B289F771",
+      "console": "SFC",
+      "title": "초마계촌",
+      "version": "0.1",
+      "author": "머리머리",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/eaf5005d7320d8d3e4e53d39209c927c"
+    },
+    {
+      "id": "KP6F5C44E46E",
+      "console": "SFC",
+      "title": "셉텐트리온",
+      "version": "1.0",
+      "author": "꽃송아지",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/1e4339f096ff534f27bacb7ad8684159"
+    },
+    {
+      "id": "KPDC88B80E70",
+      "console": "SS",
+      "title": "새턴 봄버맨",
+      "version": "0.9",
+      "author": "hospi",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-22",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/c7feb1a927e8704732fbd5e23829a702"
+    },
+    {
+      "id": "KPB5C2E42D2A",
+      "console": "MDCD",
+      "title": "바리암",
+      "version": "1.0F",
+      "author": "동글이아빠",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/1e7e04cd3ba6bd3f10c3dc6ec1ad7ef9"
+    },
+    {
+      "id": "KPAB7E62074D",
+      "console": "PSP",
+      "title": "파이널 판타지 3",
+      "version": "1.1b",
+      "author": "린스",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/71e77789190689325ed89abb2ceb4fae"
+    },
+    {
+      "id": "KPCEFD07A043",
+      "console": "SFC",
+      "title": "레이디 스토커: 과거로부터의 도전",
+      "version": "1.3",
+      "author": "미지23",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/393663abcba8f96de669000a4fb21ed3"
+    },
+    {
+      "id": "KP77C2D5E84F",
+      "console": "XBOX",
+      "title": "령 2: 붉은나비 디렉터즈 컷",
+      "version": "0.81",
+      "author": "GiKakNo",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/cf3ba1399153db0b5e2dc308f36128f5"
+    },
+    {
+      "id": "KPF40F3427E6",
+      "console": "PC98",
+      "title": "스팀 하츠",
+      "version": "1.1",
+      "author": "너부리",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/f6ceff6d1ec67b5c5935dfc89b36174b"
+    },
+    {
+      "id": "KP9389697191",
+      "console": "PSP",
+      "title": "미래일기: 13번째 일기 소유자 - Re:write",
+      "version": "1.0.3",
+      "author": "NP",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/7689d38f228caa2ac588eb087f5280b4"
+    },
+    {
+      "id": "KPC6A9C5B985",
+      "console": "PS3",
+      "title": "콜 오브 듀티: 블랙 옵스",
+      "version": "1.01",
+      "author": "cbble",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/2c9d7d9bf842346b06418630bf990b06"
+    },
+    {
+      "id": "KPB24D25C902",
+      "console": "SFC",
+      "title": "힘내라 고에몽: 유키 공주 구출기",
+      "version": "1.1",
+      "author": "미지23",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/24d9e08fe426e9e4c1945eb580e7856f"
+    },
+    {
+      "id": "KPB95A73EF15",
+      "console": "FC",
+      "title": "파이어 엠블렘: 암흑룡과 빛의 검",
+      "version": "1.4",
+      "author": "동릇",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/85552e512f10a62bd536fb221a990447"
+    },
+    {
+      "id": "KP4AAB0C7A18",
+      "console": "SFC",
+      "title": "슈퍼 지구방위군",
+      "version": "0.1",
+      "author": "머리머리",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/07fdfa2530a7c4330dfe75b77a4fd55f"
+    },
+    {
+      "id": "KPC72DAE465B",
+      "console": "PS2",
+      "title": "체인즈 오브 파워",
+      "version": "20261123",
+      "author": "꼬뱀",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/0623839840afd9427358ad0354ea9aef"
+    },
+    {
+      "id": "KP5412F6EC48",
+      "console": "NDS",
+      "title": "세계수의 미궁",
+      "version": "1.1",
+      "author": "섹붕이",
+      "patch_date": "2026-11-19",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/11703e21c4b1ec13e3b5e9812490efff"
+    },
+    {
+      "id": "KPB1729FDA2A",
+      "console": "NDS",
+      "title": "세계수의 미궁 2",
+      "version": "1.1",
+      "author": "섹붕이",
+      "patch_date": "2026-11-19",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/44f478f1e920a5200efe41166a639541"
+    },
+    {
+      "id": "KP2A8B5D1D73",
+      "console": "DC",
+      "title": "더 프로야구팀을 만들자!",
+      "version": "0.02",
+      "author": "꼬뱀",
+      "patch_date": "2026-11-12",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/b5f2e8ebb5aacefad75c16374b53c240"
+    },
+    {
+      "id": "KP377B5D8E4B",
+      "console": "DC",
+      "title": "북으로: 화이트 일루미네이션",
+      "version": "0.92",
+      "author": "바닷빛",
+      "patch_date": "2026-10-06",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/3f34dcd98069fba1b8564ccda6da1d98"
+    },
+    {
+      "id": "KP8A54DF9D94",
+      "console": "PS2",
+      "title": "크리의 문장",
+      "version": "20261122",
+      "author": "꼬뱀",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/274da058a7ce82d5fbb29e5b0dfd959d"
+    },
+    {
+      "id": "KP559E6A3A77",
+      "console": "PS2",
+      "title": "엑스맨 레전드 2",
+      "version": "20261122",
+      "author": "꼬뱀",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/c9ae0b5d998f151c80d1cc9452f050fe"
+    },
+    {
+      "id": "KPE45215E343",
+      "console": "PS2",
+      "title": "레드 데드 리볼버",
+      "version": "1.0.1",
+      "author": "돈골",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/519eb0a6015e26c9d9078727f9018749"
+    },
+    {
+      "id": "KP10CF1BDB0E",
+      "console": "3DS",
+      "title": "골판지 전기 폭 부스트",
+      "version": "1.63",
+      "author": "Ingaungeo",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/5bbe5e90d4a392621bf055e38606d330"
+    },
+    {
+      "id": "KPCD564B41AD",
+      "console": "PSP",
+      "title": "디시디아 012 듀오데심 파이널 판타지",
+      "version": "0.99",
+      "author": "TeeTeeTee",
+      "patch_date": "2026-11-15",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/84ac1aadb578e354b199ce55182e75cf"
+    },
+    {
+      "id": "KPED64127929",
+      "console": "NDS",
+      "title": "나이츠 인 더 나이트메어",
+      "version": "1.0.1.1",
+      "author": "QJ",
+      "patch_date": "2026-11-21",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/e202a1b3c7050e43bed6b50c57fce68a"
+    },
+    {
+      "id": "KPEFBA6FB958",
+      "console": "PS2",
+      "title": "카게로 2: 다크 일루젼",
+      "version": "1.0",
+      "author": "강유",
+      "patch_date": "2026-11-20",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/ba1308fa8e6a3f05747ca0a528b9f9af"
+    },
+    {
+      "id": "KP4949F4763F",
+      "console": "SFC",
+      "title": "리조이스: 아레사 외전",
+      "version": "0.8.5",
+      "author": "동글이아빠",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/c57b75163f5407a52beb0754a49897f1"
+    },
+    {
+      "id": "KPE2C81BAD96",
+      "console": "SFC",
+      "title": "망량전기 마다라 2",
+      "version": "1.14",
+      "author": "토마토풀",
+      "patch_date": "2026-11-21",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/0bdf69fc71fe03165e5a6c3e979b73e3"
+    },
+    {
+      "id": "KP3CF0994701",
+      "console": "SFC",
+      "title": "이하토보 이야기",
+      "version": "1.0",
+      "author": "무상",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/728000fb64e69c5073b3f9374208a0ab"
+    },
+    {
+      "id": "KPAD601A457F",
+      "console": "PS1",
+      "title": "드래곤 밸러",
+      "version": "1.0",
+      "author": "부끄지",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/343d79f025f69ef444f8e0e63d594bf3"
+    },
+    {
+      "id": "KP4224540930",
+      "console": "PSV",
+      "title": "괴혼 노비타",
+      "version": "0.5",
+      "author": "WindowsTiger",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/f45c5cf56edc239aebd61f04f79e222b"
+    },
+    {
+      "id": "KPD2FED6FDAE",
+      "console": "PS1",
+      "title": "티어링 사가: 유토나 영웅전기",
+      "version": "0.92",
+      "author": "찮",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/d5862e56f8ed4672e2e0922158b60200"
+    },
+    {
+      "id": "KP6C6392D8C6",
+      "console": "PC98",
+      "title": "무인도 이야기",
+      "version": "fix",
+      "author": "칠요회",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/272998ba85475895ff2bde415fe4882b"
+    },
+    {
+      "id": "KP5D4D3F7B51",
+      "console": "PS3",
+      "title": "해리 포터와 혼혈 왕자",
+      "version": "5366-r2",
+      "author": "꼬뱀",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/87a0a5f9d59122acaae9263e02b58ef2"
+    },
+    {
+      "id": "KP3D7FDBC755",
+      "console": "NDS",
+      "title": "파이널 판타지 3",
+      "version": "1.0",
+      "author": "린스",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/c679b36158b9b03a9a4b612214cfdc73"
+    },
+    {
+      "id": "KP2C602F2D61",
+      "console": "WII",
+      "title": "이나즈마 일레븐 GO 스트라이커즈 2013",
+      "version": "1.0",
+      "author": "부끄지",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/b52524ea97bc63e58f7d64979de55ce7"
+    },
+    {
+      "id": "KPC319F3EA81",
+      "console": "SFC",
+      "title": "페다: 디 엠블렘 오브 저스티스",
+      "version": "1.0",
+      "author": "미지23",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/d640f96f5c0ade3e4be2af3ade573c68"
+    },
+    {
+      "id": "KP051E970B07",
+      "console": "PS2",
+      "title": "리모코코론",
+      "version": "0.14.1",
+      "author": "기적과건강",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/97b77cda659310cba0e73364b4d53932"
+    },
+    {
+      "id": "KP7E78455EE9",
+      "console": "MDCD",
+      "title": "쉐도우런",
+      "version": "0.9.5",
+      "author": "동글이아빠",
+      "patch_date": "2026-11-22",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/3cee376cc1ef34ceb87fe5cc6b6b0e6e"
+    },
+    {
+      "id": "KP68B6DA4B3D",
+      "console": "ARCADE",
+      "title": "스트리트 파이터 3 세컨드 임펙트",
+      "version": "1.1",
+      "author": "꿀렁이",
+      "patch_date": "2026-11-19",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/d878cda864377b806db7de364439ddb5"
+    },
+    {
+      "id": "KP7D95594CC2",
+      "console": "ARCADE",
+      "title": "스트리트 파이터 3 서드 스트라이크",
+      "version": "1.1",
+      "author": "꿀렁이",
+      "patch_date": "2026-11-19",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/01d69d2ddb61eda57993bbe2a6c29cd9"
+    },
+    {
+      "id": "KP7F6A575638",
+      "console": "NDS",
+      "title": "유성의 록맨 3: 블랙 에이스",
+      "version": "1.0.4.2",
+      "author": "QJ",
+      "patch_date": "2026-11-21",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/0f254d65b01a1c5123302a0517fce1ab"
+    },
+    {
+      "id": "KP2194165F7B",
+      "console": "NDS",
+      "title": "유성의 록맨 3: 레드 조커",
+      "version": "1.0.4.2",
+      "author": "QJ",
+      "patch_date": "2026-11-21",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/3e1d4d2c4595a170ecb725a03010ccae"
+    },
+    {
+      "id": "KP9771EEEAA6",
+      "console": "NDS",
+      "title": "제트 임펄스",
+      "version": "1.1.1.1",
+      "author": "QJ",
+      "patch_date": "2026-11-21",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/b09cce6365a64a388e6dbb960fde04d1"
+    },
+    {
+      "id": "KP29421562C5",
+      "console": "NDS",
+      "title": "포켓몬 + 노부나가의 야망",
+      "version": "1.0.1.1",
+      "author": "QJ",
+      "patch_date": "2026-11-21",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/a7abcdc8c341e1de510da1e79e0ef964"
+    },
+    {
+      "id": "KP42397AB849",
+      "console": "NDS",
+      "title": "진 여신전생 스트레인지 저니",
+      "version": "1.0.2.1",
+      "author": "QJ",
+      "patch_date": "2026-11-21",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/7e312600301d4d01689b6492801827e0"
+    },
+    {
+      "id": "KP0B0F51F375",
+      "console": "GBC",
+      "title": "해리포터와 마법사의 돌",
+      "version": "0.8.5",
+      "author": "동글이아빠",
+      "patch_date": "2026-11-18",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/f39a016d4ebb449193ce847458fe0cd5"
+    },
+    {
+      "id": "KP5D52543E57",
+      "console": "NDS",
+      "title": "유성의 록맨: 드래곤",
+      "version": "1.3.1.1",
+      "author": "QJ",
+      "patch_date": "2026-11-21",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/3b3eb08201c7617bef17bc56803db2e9"
+    },
+    {
+      "id": "KP7ECF0E9F80",
+      "console": "NDS",
+      "title": "유성의 록맨: 페가수스",
+      "version": "1.3.1.1",
+      "author": "QJ",
+      "patch_date": "2026-11-21",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/eb0e38dc236e7e97caa41c4047ebc7d0"
+    },
+    {
+      "id": "KP40CE33FB81",
+      "console": "NDS",
+      "title": "유성의 록맨: 레오",
+      "version": "1.3.1.1",
+      "author": "QJ",
+      "patch_date": "2026-11-21",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/97e749e8184e120c1537fe1ecebbb13e"
+    },
+    {
+      "id": "KP9403E79AE8",
+      "console": "XBOX360",
+      "title": "에이리언 vs 프레데터",
+      "version": "1.01",
+      "author": "cbble",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/29702ab1bf74efd5152555c55c171856"
+    },
+    {
+      "id": "KPDE5C5E0F4D",
+      "console": "N64",
+      "title": "풍래의 시렌 2",
+      "version": "1.0",
+      "author": "드라크로아",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/75baf16944d28ea743185f110d34f22f"
+    },
+    {
+      "id": "KP653D20C99E",
+      "console": "NDS",
+      "title": "에르미나쥬",
+      "version": "1.0.1",
+      "author": "QJ",
+      "patch_date": "2026-11-21",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/dc6d38e9440ff0ebd66031d954be6d96"
+    },
+    {
+      "id": "KPB8234B43D0",
+      "console": "NDS",
+      "title": "에르미나쥬 2",
+      "version": "1.0.1.1",
+      "author": "QJ",
+      "patch_date": "2026-11-21",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/0f937085a75fbd019c972e633f318e2b"
+    },
+    {
+      "id": "KPDDA4C913A9",
+      "console": "N64",
+      "title": "악마성 드라큘라 묵시록 외전: 레전드 오브 코넬",
+      "version": "0.65",
+      "author": "GiKakNo",
+      "patch_date": "2026-11-15",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/acb4b08b752c762a24a49ee047130a7f"
+    },
+    {
+      "id": "KP250D82C11B",
+      "console": "SFC",
+      "title": "드래곤 퀘스트 6",
+      "version": "0.91",
+      "author": "퇴사는 나의 꿈",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/32d9246e9a74bde8f8db5a54b5e5da91"
+    },
+    {
+      "id": "KPA41C7BB42A",
+      "console": "GBC",
+      "title": "해리포터와 비밀의 방",
+      "version": "0.8.5",
+      "author": "동글이아빠",
+      "patch_date": "2026-11-20",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/e98d06f41889de5503eccebad24bc537"
+    },
+    {
+      "id": "KPF6633FFF16",
+      "console": "NDS",
+      "title": "비색의 조각 DS",
+      "version": "1.1",
+      "author": "end",
+      "patch_date": "2026-11-19",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/6be0a870a26e70cb2ed3546952d9329a"
+    },
+    {
+      "id": "KP13B37103DC",
+      "console": "PS2",
+      "title": "기간틱 드라이브",
+      "version": "1.0",
+      "author": "베제키엘",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/c2d2f910d9b6ec9b445cf4ced484f39b"
+    },
+    {
+      "id": "KP1AA77068EC",
+      "console": "SFC",
+      "title": "신 귀신섬 후편",
+      "version": "1.2",
+      "author": "미지23",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/33fa39b77928bc0688702f5d67c99763"
+    },
+    {
+      "id": "KP2FD88F79DF",
+      "console": "FC",
+      "title": "천지를 먹다",
+      "version": "1.12",
+      "author": "퇴사는 나의 꿈",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/d0cec1f4f1688ef543b2c91c1b0283f6"
+    },
+    {
+      "id": "KP8E12EF416E",
+      "console": "PS1",
+      "title": "흑의 검",
+      "version": "1.02F",
+      "author": "꽃송아지",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/c89c396c6fa32fe9d2c158fe4a95cb46"
+    },
+    {
+      "id": "KP82FACE09DD",
+      "console": "SFC",
+      "title": "드래곤 퀘스트 3",
+      "version": "1.10",
+      "author": "퇴사는 나의 꿈",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/dba93e6590ca3ce75f28b78fb1f4b68c"
+    },
+    {
+      "id": "KPE58BB3BF17",
+      "console": "SFC",
+      "title": "무사 청룡전",
+      "version": "0.8A",
+      "author": "동글이아빠",
+      "patch_date": "2026-11-20",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/03512ef0b8abf8a3908f9aa00f957108"
+    },
+    {
+      "id": "KP247954DF76",
+      "console": "FC",
+      "title": "파이널 판타지 3",
+      "version": "1.22",
+      "author": "퇴사는 나의 꿈",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/ec5a3d0f779907f54b9e1f3906ba7f3a"
+    },
+    {
+      "id": "KPE7DC9375EA",
+      "console": "PS2",
+      "title": "사무라이의 길 완전판",
+      "version": null,
+      "author": "ㅇㅇ",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/828c8deb8d3f6028a374d0bd72e56699"
+    },
+    {
+      "id": "KP393CE62353",
+      "console": "SFC",
+      "title": "강철의 기사 2",
+      "version": "0.8E",
+      "author": "동글이아빠",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/93cce036f9f70e2a49eb431bebdeb840"
+    },
+    {
+      "id": "KPDB8CA70F15",
+      "console": "PS1",
+      "title": "악마성 연대기",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/5a17c1faf229189fe6de633b304d8f6a"
+    },
+    {
+      "id": "KPCD28A1B9EE",
+      "console": "PS1",
+      "title": "브레이브 사가 2",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/b30f139d894e9559b3488335cbcaa00e"
+    },
+    {
+      "id": "KPDABB596F54",
+      "console": "PS2",
+      "title": "죠죠의 기묘한 모험: 황금의 바람",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/8134e89269aad5ad4f9dfd1ed8e92ce0"
+    },
+    {
+      "id": "KP448A9936BD",
+      "console": "PS2",
+      "title": "죠죠의 기묘한 모험: 팬텀 블러드",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/efd55022a8b92c5512c78a317987020f"
+    },
+    {
+      "id": "KPF8B47D852C",
+      "console": "XBOX360",
+      "title": "도돈파치 대부활 Ver1.5",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/c8f29961b641b40c3a2ebfeb7f1cdd1c"
+    },
+    {
+      "id": "KP6EC61AE593",
+      "console": "XBOX360",
+      "title": "도돈파치 대부활: 블랙 라벨",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/bfbdceb7610c041cc923316d8ecf4854"
+    },
+    {
+      "id": "KP185DCC6ED3",
+      "console": "PS3",
+      "title": "라쳇 앤 클랭크: 인 투 더 넥서스",
+      "version": "1.20",
+      "author": "Kalacat",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/5df9a463d15eba9f11606960ac44608d"
+    },
+    {
+      "id": "KP3D67B2FF23",
+      "console": "XBOX360",
+      "title": "오토메디우스 고저스",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/6e59a430933e50a5999cbbed7534d7a0"
+    },
+    {
+      "id": "KP07CC4479E1",
+      "console": "XBOX360",
+      "title": "오토메디우스 엑설런트",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/a5699e08d2747da6c4ca5df3bd5a5473"
+    },
+    {
+      "id": "KP3DACF724A7",
+      "console": "XBOX360",
+      "title": "오네찬바라 비키니 사무라이 스쿼드",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/6ec602a083ee99fe808cce692b0b4543"
+    },
+    {
+      "id": "KPE1AD10424C",
+      "console": "XBOX360",
+      "title": "세인츠 로우",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/a2b0fa9d844ffac57c551fc9ac366dbe"
+    },
+    {
+      "id": "KP8EE9640ED8",
+      "console": "PS2",
+      "title": "강철의 연금술사: 드림카니발",
+      "version": "1.00",
+      "author": "Kalacat",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/c2907ef881ec6f8d8ddf3348cc75a8b7"
+    },
+    {
+      "id": "KP50A42A0D2B",
+      "console": "XBOX",
+      "title": "캐슬배니아 어둠의 저주",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/b73ff772dd12f51e4409bd7ed5f69458"
+    },
+    {
+      "id": "KP573D550607",
+      "console": "XBOX360",
+      "title": "블레이드 스톰: 백년전쟁",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/aa835b5ade1307770f3b6c97d16cc5e7"
+    },
+    {
+      "id": "KP813FDE18C6",
+      "console": "XBOX360",
+      "title": "컬드셉트 사가",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/0cd1033f40b877992c432323d3cccfe1"
+    },
+    {
+      "id": "KP28D0D54004",
+      "console": "XBOX360",
+      "title": "크로스 엣지 대시",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/23bcfe4ad8103618f86f9de4730f3f26"
+    },
+    {
+      "id": "KPCB2F4D1097",
+      "console": "PSP",
+      "title": "안티포나의 성가공주",
+      "version": "0.7",
+      "author": "흐음",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/47a6e511af4bad737ca239e63d558034"
+    },
+    {
+      "id": "KPCA5046E22B",
+      "console": "PC98",
+      "title": "스타 플래티넘",
+      "version": null,
+      "author": "칠요회",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/003b902be0d942e3eb1c58203cdef01a"
+    },
+    {
+      "id": "KP2B3AC89706",
+      "console": "3DS",
+      "title": "마이티 스위치 포스 2",
+      "version": "0.0.1",
+      "author": "네코반점",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/b9977f40b31ce45eae9c66b86d5a78fe"
+    },
+    {
+      "id": "KPDC35C47691",
+      "console": "NDS",
+      "title": "드래곤 퀘스트 4",
+      "version": "1.1a",
+      "author": "린스",
+      "patch_date": "2026-11-14",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/4dab27c9277383eb2a127b4bc37b5ddf"
+    },
+    {
+      "id": "KPE802035A65",
+      "console": "NDS",
+      "title": "드래곤 퀘스트 9",
+      "version": "261123d",
+      "author": "ep7oy",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/b822ccab5e30a1c586cfbcaf91aad613"
+    },
+    {
+      "id": "KP335C98C7F8",
+      "console": "PS2",
+      "title": "삼국지 11 with 파워업 키트",
+      "version": "0.98",
+      "author": "hospi",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/68860a2b7ca5bac05e57acb65b1dc7f8"
+    },
+    {
+      "id": "KP1DEA5C6E72",
+      "console": "PS1",
+      "title": "드래곤볼 Z: 위대한 드래곤볼 전설",
+      "version": "02",
+      "author": "아재의꿈",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/40a57a9f74fe9a03ae13136b3e54add3"
+    },
+    {
+      "id": "KPA28B670B3E",
+      "console": "PS1",
+      "title": "악마성 드라큘라: 월하의 야상곡 얼티메이트",
+      "version": "2.1.9",
+      "author": "칸스",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/93069ebc2507087d1dc4717af89c5407"
+    },
+    {
+      "id": "KP3F87D2BBCA",
+      "console": "GBA",
+      "title": "진 여신전생 데빌 칠드런 빛의 서",
+      "version": "1.2",
+      "author": "미지23",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/7cbd21ff7c67ffa12552de67eae561fb"
+    },
+    {
+      "id": "KPEA7288A152",
+      "console": "N64",
+      "title": "가라가라!! 트러블 메이커즈",
+      "version": "14",
+      "author": "아재의꿈",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/d294e15b94d9ebe037a234676d1c765a"
+    },
+    {
+      "id": "KPE9B9886A7D",
+      "console": "MD",
+      "title": "몬스터 월드 3",
+      "version": "베타 4",
+      "author": "hguyswow",
+      "patch_date": "2026-10-15",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/c8d1c51eb649b4599b1fb263ef0769d7"
+    },
+    {
+      "id": "KP4CB9719237",
+      "console": "MD",
+      "title": "삼국지열전: 난세군영",
+      "version": "261114",
+      "author": "hguyswow",
+      "patch_date": "2026-11-14",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/2dce36478db9231a2da494dbf19ef05a"
+    },
+    {
+      "id": "KP7D718DF221",
+      "console": "NDS",
+      "title": "형사 J.B. 해럴드의 사건부: 맨해튼 레퀴엠 & 키스 오브 머더",
+      "version": "0.9",
+      "author": "Dansic",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/84165530e5d03b2572f192f377da4e95"
+    },
+    {
+      "id": "KP58058E9285",
+      "console": "SS",
+      "title": "새턴 봄버맨 파이트",
+      "version": "0.9",
+      "author": "hospi",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/a44dc80221746516959c74dfe3c167f5"
+    },
+    {
+      "id": "KP24FDA84BC9",
+      "console": "ARCADE",
+      "title": "퀴즈 달의 요정 세일러문: 지혜 체력 행운",
+      "version": "0.8",
+      "author": "책벌레공상가",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/deb8e4260d92415ab800975df55fa4f3"
+    },
+    {
+      "id": "KPA8400F53D1",
+      "console": "PSP",
+      "title": "무쌍 오로치 2 스페셜",
+      "version": "0.9.1",
+      "author": "NP",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/6cf6dc814fb885b6a91973f6b352d019"
+    },
+    {
+      "id": "KPD2DAECDCA8",
+      "console": "PSP",
+      "title": "샤이닝 하츠",
+      "version": "0.9.2",
+      "author": "NP",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/ade3d18e801827de6e54ff767161c19d"
+    },
+    {
+      "id": "KP0AFB413758",
+      "console": "XBOX360",
+      "title": "아이돌 마스터",
+      "version": "261123",
+      "author": "rnrmfdlapdlf",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/3c36c02a99dbebd2ca7d1ab394973da1"
+    },
+    {
+      "id": "KP194771ECE7",
+      "console": "PS1",
+      "title": "슈퍼로봇대전 알파",
+      "version": "1.1",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/75e75c5ab4b3722d844969b3ffd5efc4"
+    },
+    {
+      "id": "KPC6933B3B83",
+      "console": "PS1",
+      "title": "슈퍼로봇대전 알파 외전",
+      "version": "1.1",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/d209ec7af6bf6edc3bc0426bac9e9305"
+    },
+    {
+      "id": "KPBA3BD2F4CC",
+      "console": "NDS",
+      "title": "메탈 맥스 2 리로디드",
+      "version": "1.1.2.1",
+      "author": "QJ",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/69201beac09d95011e1ecccc45db33c2"
+    },
+    {
+      "id": "KPCFD9A6824C",
+      "console": "PC98",
+      "title": "러브 에스컬레이터",
+      "version": "0.9",
+      "author": "찌니짱",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/745ca56ebca4e3874ba2b1fe4f1631fd"
+    },
+    {
+      "id": "KP555A977549",
+      "console": "SFC",
+      "title": "카드 마스터",
+      "version": "0.4",
+      "author": "무상",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/385a07d65482caadb919fce560117e47"
+    },
+    {
+      "id": "KP77B247654B",
+      "console": "NDS",
+      "title": "메탈 맥스 3",
+      "version": "1.0.2.1",
+      "author": "QJ",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-23",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/16ab834014389363468759222f18a95a"
+    },
+    {
+      "id": "KPF814DD7E41",
+      "console": "MSX2",
+      "title": "에메랄드 드래곤",
+      "version": "1.0",
+      "author": "셀리카",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/c279de4cde93cf0b7f1f748018e86ce5"
+    },
+    {
+      "id": "KPEA4F652FED",
+      "console": "PS3",
+      "title": "미드나이트 클럽: LA 컴플리트 에디션",
+      "version": "0.9.3",
+      "author": "BNR34",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/fee5a3417f2ec44c94ef6a11996f59ee"
+    },
+    {
+      "id": "KPA7BB3A308F",
+      "console": "XBOX360",
+      "title": "미드나이트 클럽: LA 컴플리트 에디션",
+      "version": "0.9.3",
+      "author": "BNR34",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/b5dfdcf7e337943ab980ec78bd05ee75"
+    },
+    {
+      "id": "KP6872B1B41D",
+      "console": "PSP",
+      "title": "삼국지 9 with 파워업키트",
+      "version": "261124",
+      "author": "신선짱",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/9e13002e1b10f6633af5e19492970c35"
+    },
+    {
+      "id": "KP55A060742E",
+      "console": "3DS",
+      "title": "세계수의 미궁 X",
+      "version": "1.0.5",
+      "author": "섹붕이",
+      "patch_date": "2026-11-23",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/c2c136e435f5d486ac29e100c26fff7a"
+    },
+    {
+      "id": "KP7BB7BB1DBE",
+      "console": "MSX2",
+      "title": "신의 성도",
+      "version": "1.0",
+      "author": "셀리카",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/75b197981ccbfc6e7eb97d253ced605f"
+    },
+    {
+      "id": "KP6AD2318542",
+      "console": "NDS",
+      "title": "에이지 오브 엠파이어: 에이지 오브 킹즈",
+      "version": "1.0",
+      "author": "제이어솔한",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/68908229ff8e2c7e67fa855f2addb8a4"
+    },
+    {
+      "id": "KP8C2886A544",
+      "console": "FC",
+      "title": "비룡의 권 2",
+      "version": "1.4",
+      "author": "미지23",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/16dfe874d0b5bdd02389c720288473ab"
+    },
+    {
+      "id": "KP63454F4548",
+      "console": "SFC",
+      "title": "마신전생",
+      "version": "1.4",
+      "author": "미지23",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/1b5e77722f6fa0b164dc6d986557d3e3"
+    },
+    {
+      "id": "KP3AF7C7DCB2",
+      "console": "PCECD",
+      "title": "드래곤 나이트 2",
+      "version": "1.0",
+      "author": "제이어솔한",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/6a0921c662eed5e697c79da807b55437"
+    },
+    {
+      "id": "KP7FFBE2FD23",
+      "console": "XBOX360",
+      "title": "아미 오브 투: 40번째 날",
+      "version": "Final",
+      "author": "Deadmoon",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/04fac7b65a611558bc37f2b1235d4589"
+    },
+    {
+      "id": "KP28A3EDD4D4",
+      "console": "NDS",
+      "title": "에이지 오브 엠파이어: 미솔로지",
+      "version": "1.0",
+      "author": "제이어솔한",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/b7a4242164d24c25cb4fa4149f80e00f"
+    },
+    {
+      "id": "KP50AA5635E6",
+      "console": "PS2",
+      "title": "바람의 검심: 교토윤회",
+      "version": "261124",
+      "author": "ㅇㅇ",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/5052db9d42da60dc2da4ae8658705e7c"
+    },
+    {
+      "id": "KP52CE2194F0",
+      "console": "PS2",
+      "title": "블리치: 해방된 야망",
+      "version": "20261123",
+      "author": "꼬뱀",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/75b04a4464d7ae484ad9155d6e390d67"
+    },
+    {
+      "id": "KPF09C4BC37E",
+      "console": "PS2",
+      "title": "저스티스리그 히어로즈",
+      "version": "R23",
+      "author": "꼬뱀",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/b7ca0ce465e0a6f2cad0f8b608fa053c"
+    },
+    {
+      "id": "KP8821066964",
+      "console": "PS2",
+      "title": "마블 얼티밋 얼라이언스",
+      "version": "0.3.1",
+      "author": "꼬뱀",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/164a529d661a90e3e5e473ef1c27e489"
+    },
+    {
+      "id": "KPA0A87A2115",
+      "console": "MD",
+      "title": "이상한 바다의 나디아",
+      "version": "0.9B",
+      "author": "vol5970",
+      "patch_date": "2026-10-15",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/d20b0ca9c762921c098eef17fd1ab6f7"
+    },
+    {
+      "id": "KPE25647635E",
+      "console": "MD",
+      "title": "피구왕 통키",
+      "version": "1.01",
+      "author": "팀무풍",
+      "patch_date": "2026-11-12",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/2d95a7c8edeb47c7f5aa4df7518a96f9"
+    },
+    {
+      "id": "KP2926DF7BB8",
+      "console": "XBOX",
+      "title": "데드 오어 얼라이브 3",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/23e5dc5026dc06710114c8302366ee5a"
+    },
+    {
+      "id": "KP31A372212E",
+      "console": "XBOX",
+      "title": "데드 오어 얼라이브 익스트림 비치발리볼",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/a6b9461d55092e0b0dee3d563f61bcd9"
+    },
+    {
+      "id": "KP0A3E65A47F",
+      "console": "PS3",
+      "title": "원피스 해적무쌍",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/413249de1de74622c9df8b4b0fa998a8"
+    },
+    {
+      "id": "KP16178A515E",
+      "console": "PS3",
+      "title": "원피스 해적무쌍 2",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/fc4919acf1ef3982497f7e18462ed98a"
+    },
+    {
+      "id": "KP2C293844C7",
+      "console": "XBOX360",
+      "title": "블릿위치",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/077c5dc35771a7492aee7aff4f269896"
+    },
+    {
+      "id": "KP74AABAE405",
+      "console": "XBOX360",
+      "title": "툼레이더 애니버서리",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/24c7eb93982a949b282c8121fec05d78"
+    },
+    {
+      "id": "KPD940C5549E",
+      "console": "XBOX360",
+      "title": "툼레이더 레전드",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/795b88c85129c2e8387e67b888243b93"
+    },
+    {
+      "id": "KPC2AA1D505B",
+      "console": "XBOX360",
+      "title": "툼레이더 언더월드",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/fd3f948d132da54c2b98f67d2ef19063"
+    },
+    {
+      "id": "KPC00E030EB2",
+      "console": "PS1",
+      "title": "악마성 드라큘라: 월하의 야상곡 얼티메이트",
+      "version": "1.5.5",
+      "author": "강유",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/f2d474ae7353e10a8838b819374c725d"
+    },
+    {
+      "id": "KP58DA13E835",
+      "console": "PSP",
+      "title": "카오스 헤드 러브 츄츄",
+      "version": "1.0",
+      "author": "삼색이냥",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/ee8bea0ef2cbdbf8c7d4ddc1b49e1522"
+    },
+    {
+      "id": "KP5A5C64950B",
+      "console": "XBOX360",
+      "title": "사무라이의 길 3",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/6557aef7bd6599a8b659d3a4fc19429a"
+    },
+    {
+      "id": "KP738007B1BF",
+      "console": "XBOX360",
+      "title": "러브 풋볼: 푸른 전사들의 궤적",
+      "version": "1.0",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/41208a27870112bb0c4c38cdfa985527"
+    },
+    {
+      "id": "KP495627AD6A",
+      "console": "SFC",
+      "title": "슈퍼 차이니즈 월드 2: 우주 제일 무도회",
+      "version": "1.0",
+      "author": "미지23",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/929794d9297c7bc6610d1269dea97360"
+    },
+    {
+      "id": "KP87612E8213",
+      "console": "DC",
+      "title": "슈퍼히어로 열전",
+      "version": "R5",
+      "author": "꼬뱀",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/dcd50b167005525cfb23607e74b00988"
+    },
+    {
+      "id": "KPB4E1624F4F",
+      "console": "XBOX360",
+      "title": "진 삼국무쌍 7",
+      "version": "1.1",
+      "author": "태스크마스터",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/b1a0d6bb61c496d24324520bc3584f56"
+    },
+    {
+      "id": "KP951E2FD06A",
+      "console": "NG",
+      "title": "신 호혈사 일족: 투혼",
+      "version": "1.0",
+      "author": "꿀렁이",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/6049397c29d29367e40ae3ad8a94db20"
+    },
+    {
+      "id": "KP73DDF6E001",
+      "console": "PC98",
+      "title": "발키리",
+      "version": "2",
+      "author": "칠요회",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/c6c58958acc90b0114b380e0b489a570"
+    },
+    {
+      "id": "KP864CA5B109",
+      "console": "SS",
+      "title": "피아캐롯에 어서오세요",
+      "version": "1.0 261124",
+      "author": "쬬쬬리",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/cad123d5f0243ce541e5410e1a20c1ba"
+    },
+    {
+      "id": "KPB150A6CEF4",
+      "console": "N64",
+      "title": "스타워즈 로그 스쿼드론",
+      "version": "0.7",
+      "author": "알리키노",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/8de15087aa0859582b0c468b2335fe48"
+    },
+    {
+      "id": "KPAD47E17CCD",
+      "console": "GC",
+      "title": "스타워즈 로그 스쿼드론 2: 로그 리더",
+      "version": "0.7",
+      "author": "알리키노",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/2994dc730539fab92c2f9ccb4d112a32"
+    },
+    {
+      "id": "KPC91CAD055F",
+      "console": "GC",
+      "title": "스타워즈 로그 스쿼드론 3: 레벨 스크라이크",
+      "version": "0.7",
+      "author": "알리키노",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/3eb71e1903416c25c9654ce49e37e358"
+    },
+    {
+      "id": "KP9DAF1DA972",
+      "console": "PS1",
+      "title": "티어링 사가: 유토나 영웅전기",
+      "version": "1.0.3",
+      "author": "잉그램",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/1b30ec5693d5dd54103cff79d83ccfab"
+    },
+    {
+      "id": "KPC1F7E99C82",
+      "console": "PCECD",
+      "title": "이스 1 & 2",
+      "version": "1.3",
+      "author": "이올로",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/71ab1041b79c09fd638e982d4748612f"
+    },
+    {
+      "id": "KP12C2EAAF2B",
+      "console": "SS",
+      "title": "프리루라",
+      "version": "FINAL",
+      "author": "케도리",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/3a2584cc6cf07b757ac59d51def0ce6e"
+    },
+    {
+      "id": "KP0BA19F13B0",
+      "console": "PS1",
+      "title": "파이널 판타지 택틱스",
+      "version": "0.95",
+      "author": "퇴사는 나의 꿈",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/7dfd2f7baada3fc434db287b3acc6b11"
+    },
+    {
+      "id": "KP6EAA735278",
+      "console": "PSP",
+      "title": "하야리가미",
+      "version": "1.3",
+      "author": "삼색이냥",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/6303ec519c79d03d7305e57fc518615d"
+    },
+    {
+      "id": "KPCEFD01551E",
+      "console": "SFC",
+      "title": "소울 & 소드",
+      "version": "0.8.5A",
+      "author": "동글이아빠",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/d2c4b1134552e1668e8ceaf3698d31f8"
+    },
+    {
+      "id": "KPE84F900343",
+      "console": "NDS",
+      "title": "샨테 리스키의 복수",
+      "version": "1.1",
+      "author": "미지23",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/99e7d80b02a25df1e7f20d69e78b4d50"
+    },
+    {
+      "id": "KP82A6530E6D",
+      "console": "SFC",
+      "title": "망량전기 마다라 2",
+      "version": "0.9J",
+      "author": "동글이아빠",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/aead28d87a21ff00522ac23ab232421e"
+    },
+    {
+      "id": "KP2D8BA683CB",
+      "console": "PCECD",
+      "title": "솔 모나주",
+      "version": "0.8.5",
+      "author": "동글이아빠",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/df6ad3751acb28d9db5865455a831d94"
+    },
+    {
+      "id": "KP4376A4A275",
+      "console": "MSX2",
+      "title": "코나미의 운세 센세이션",
+      "version": "1.0",
+      "author": "이올로",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/30f00815b380c543996c9cf4a0a58064"
+    },
+    {
+      "id": "KP70AB6F0C99",
+      "console": "PS2",
+      "title": "링 오브 레드",
+      "version": null,
+      "author": "호박팬티",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/9297f55a86ba8511d44000ef9f5f5376"
+    },
+    {
+      "id": "KP82EE39F467",
+      "console": "SFC",
+      "title": "듀얼 오브: 성령주 전설",
+      "version": "1.4",
+      "author": "미지23",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/4eddc4ce10c475c9611bfcca2184d14f"
+    },
+    {
+      "id": "KPCB2EBA7387",
+      "console": "PS2",
+      "title": "더 킹 오브 파이터즈 11",
+      "version": "0.9.1",
+      "author": "꼬뱀",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/4489f1612fc5d52ae4b6ec8a578b7dd4"
+    },
+    {
+      "id": "KPCCB77E4D28",
+      "console": "SFC",
+      "title": "제4차 슈퍼로봇대전",
+      "version": "0.85",
+      "author": "yoolose",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/308ef413de37d3c760b0d857ece74866"
+    },
+    {
+      "id": "KP58FC393979",
+      "console": "PC98",
+      "title": "탄생: 데뷰",
+      "version": null,
+      "author": "칠요회",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/5436cdad7b37d7f44f38dd6e6548239f"
+    },
+    {
+      "id": "KP99842D35E3",
+      "console": "PS1",
+      "title": "성검전설 레전드 오브 마나",
+      "version": "20261124FIX",
+      "author": "꼬뱀",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/22cb4898f328259edf528c2830b6f53a"
+    },
+    {
+      "id": "KP16E6F652B7",
+      "console": "NDS",
+      "title": "불타라! 열혈 리듬 혼: 아자! 싸워라! 응원단 2",
+      "version": "1.3",
+      "author": "sizz1214-lang",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/7389f1b690a4b82542b96ccb66f9d94f"
+    },
+    {
+      "id": "KP376D6BD1F1",
+      "console": "NDS",
+      "title": "주식 트레이더 슌",
+      "version": "0.8.2",
+      "author": "Dansic",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/60c6a0fd54b2c96b23897bb6d043ff0e"
+    },
+    {
+      "id": "KP9E84FC6C4F",
+      "console": "NDS",
+      "title": "진 여신전생: 데빌 서바이버 2",
+      "version": "0.8.1",
+      "author": "Dansic",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/6a1cbcc159e1a24daf97bb306c97203f"
+    },
+    {
+      "id": "KPD92A307422",
+      "console": "NDS",
+      "title": "도쿄 트와일라잇 버스터즈: 금단의 제물 제도지옥변",
+      "version": "0.9.1",
+      "author": "Dansic",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/1712618abd5f2ff7ff7b42dc250113bb"
+    },
+    {
+      "id": "KPFC6CE69FE9",
+      "console": "NDS",
+      "title": "풍래의 시렌 4",
+      "version": "0.9.3",
+      "author": "Dansic",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/a89e3131b8eacb0cda634b2369e23583"
+    },
+    {
+      "id": "KP808F379D3E",
+      "console": "NDS",
+      "title": "풍래의 시렌 5: 포츈타워와 운명의 다이스",
+      "version": "0.9.3",
+      "author": "Dansic",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/0a5e23fed460bdf831217b3deffc5bdb"
+    },
+    {
+      "id": "KPA2A8B4A8EC",
+      "console": "NDS",
+      "title": "THE 교섭인",
+      "version": "0.8.1",
+      "author": "Dansic",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/ea93568da424aac2c4faa78f1fdf12f5"
+    },
+    {
+      "id": "KPD5953F437F",
+      "console": "NDS",
+      "title": "춤추는 대수사선: 잠수함에 잠입하라!",
+      "version": "0.9.5",
+      "author": "Dansic",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/83e6b936f95ddc83faf06ceba96bb7db"
+    },
+    {
+      "id": "KPF46908AE25",
+      "console": "NDS",
+      "title": "도도 류노스케 탐정일기: 호박색 유언",
+      "version": "0.9.1",
+      "author": "Dansic",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/2cbf0265ad9b3e10d4d3e02de040aa34"
+    },
+    {
+      "id": "KP4BC70DD375",
+      "console": "PS2",
+      "title": "데드 오어 얼라이브 2 하드코어",
+      "version": "1.1",
+      "author": "부끄지",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/312fc2232b340b6f3d6ee331b3fde599"
+    },
+    {
+      "id": "KP34F5572B98",
+      "console": "PS2",
+      "title": "노부나가의 야망 창천록 with 파워업 키트",
+      "version": "1.8",
+      "author": "부끄지",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/aa9914e1b089f6f100a6335db3e6a59e"
+    },
+    {
+      "id": "KP3A3C74C805",
+      "console": "PS2",
+      "title": "프로야구 스피리츠 6",
+      "version": "1.7",
+      "author": "부끄지",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/21d3a1f3ae0375c07833b507b0624465"
+    },
+    {
+      "id": "KPFB1BBD21BF",
+      "console": "PS1",
+      "title": "페다 2: 화이트 서지 더 플래툰",
+      "version": "1.4",
+      "author": "부끄지",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/0ebe5670100c1f75efcfb8a5b743a6ad"
+    },
+    {
+      "id": "KPC8A4A85C35",
+      "console": "PS2",
+      "title": "건",
+      "version": "35",
+      "author": "꼬뱀",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/60904f794705da0b474be89d96c0d421"
+    },
+    {
+      "id": "KP213CC26B2B",
+      "console": "FC",
+      "title": "마더",
+      "version": "1.3",
+      "author": "부끄지",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/b8692917b2e4c2d22b4f3a296065d21b"
+    },
+    {
+      "id": "KP3F324067C1",
+      "console": "PS2",
+      "title": "MLB 07: 더 쇼",
+      "version": "1.1",
+      "author": "부끄지",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/c7cb1800e38c7a89293646a4ea207edd"
+    },
+    {
+      "id": "KPB6D5CE7E15",
+      "console": "SFC",
+      "title": "미스틱 아크",
+      "version": "1.9",
+      "author": "미지23",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/3ab905c19517b8de514a9410fbfc6ad1"
+    },
+    {
+      "id": "KPD0558A71CA",
+      "console": "SS",
+      "title": "루나 2 이터널 블루",
+      "version": "1.1",
+      "author": "미지23",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/97d8f83d2a07e86102b570c6c616221e"
+    },
+    {
+      "id": "KP0510F3D4FC",
+      "console": "SS",
+      "title": "선검기협전",
+      "version": "0.9",
+      "author": "hospi",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/d5ae3c3c435a81369ae66a9ddd22c032"
+    },
+    {
+      "id": "KPD0AB239E86",
+      "console": "PS2",
+      "title": "신선조 군랑전",
+      "version": "20261124",
+      "author": "꼬뱀",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/e80fefb3654fe092837fb69428a11bff"
+    },
+    {
+      "id": "KP2BA94A9D4F",
+      "console": "PS1",
+      "title": "트와일라잇 신드롬 구명편",
+      "version": "1.2",
+      "author": "부끄지",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/c279f91ae2e9790485837bf83fe94202"
+    },
+    {
+      "id": "KP88C255C76B",
+      "console": "PS2",
+      "title": "망국의 이지스 2035: 워쉽 거너",
+      "version": "1.2",
+      "author": "부끄지",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/6ba6587f5e87c5e5dc7d071b3ecf5f6f"
+    },
+    {
+      "id": "KPC0A2D1A087",
+      "console": "GBA",
+      "title": "슈퍼로봇대전 J",
+      "version": "2.8",
+      "author": "부끄지",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/ad113559984933ae1e04d1319337be8f"
+    },
+    {
+      "id": "KP510509558E",
+      "console": "PSP",
+      "title": "갓 이터 버스트",
+      "version": "1.0",
+      "author": "TeeTeeTee",
+      "patch_date": "2026-11-08",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/c6b57a179fef9319b80b2d8c1be2a4de"
+    },
+    {
+      "id": "KPFC73219D43",
+      "console": "PSP",
+      "title": "도쿄 모노하라시: 카라스노모리 학원 기담",
+      "version": "1.4",
+      "author": "부끄지",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/c3630ea2901c2b41457c253e9d586f5c"
+    },
+    {
+      "id": "KP5D1EDDB954",
+      "console": "PSP",
+      "title": "대전략 포터블 2",
+      "version": "1.1",
+      "author": "부끄지",
+      "patch_date": "2026-11-24",
+      "registered_at": "2026-11-24",
+      "status": "배포중",
+      "url": "https://retrodb.info/krpatch/api/link/c4e9fdc78502b9777161d3c26762a0f5"
     }
   ]
 }
