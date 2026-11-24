@@ -1,7 +1,7 @@
 # RetroDB 한글패치 관리자 (`v0.1`)
 
 로컬에 보관 중인 콘솔 게임 한글패치 폴더를 스캔하여 [RetroDB 한글패치 DB](https://retrodb.info/krpatch)와 대조하고, 최신 버전 여부·폴더명 정리·버전 메타데이터(`.retrodb_ver`)를 관리하는 Windows용 Python GUI 도구입니다.
----
+
 ## 주요 기능
 
 - **자동/수동 DB 매칭**: 콘솔 기종, 게임 타이틀, 제작자를 기준으로 DB 항목을 자동 매칭하며, 모호하거나 미등록된 폴더는 검색 대화상자(`DB 선택`)에서 직접 지정할 수 있습니다.
@@ -9,14 +9,12 @@
 - **구버전 판별**: `.retrodb_ver`에 기록된 버전/ID와 실제 게임 폴더 내 파일의 최신 수정일을 DB 패치일과 비교해 업데이트 필요 여부를 표시합니다.
 - **제작자 표기 정리**: `폴더에 제작자 이름 표시` 옵션을 켜면 `타이틀 [제작자]` 형식으로 폴더명을 일괄 정리하고 변경 이력을 로그(`krpatch_folder_rename.log`)에 남깁니다.
 - **로컬 DB 캐싱**: API 응답을 로컬 JSON으로 캐시(`retrodb_krpatch_cache.json`)하여 불필요한 API 호출을 줄입니다.
----
+
 ## 최초 설정
-최초 실행 시 현재 실행 폴더(Path.cwd())에 krpatch_config.json이 없으면 초기 환경설정 대화상자가 열립니다.
+최초 실행 시 현재 실행 폴더(Path.cwd())에 krpatch_config.json이 없으면 초기 환경설정 대화상자가 열립니다.<br>
+- **API 발급키**: RetroDB에서 발급받은 API 키 입력
+- **최상위 폴더**: 콘솔별 한글패치 폴더가 모여 있는 루트 경로 선택 (예: C:\share\KRPATCH)
 
-API 발급키: RetroDB에서 발급받은 API 키 입력
-
-최상위 폴더: 콘솔별 한글패치 폴더가 모여 있는 루트 경로 선택 (예: C:\share\KRPATCH)
----
 ## 폴더 구조
 C:\share\KRPATCH<br>
 ├── Nintendo<br>
@@ -28,7 +26,7 @@ C:\share\KRPATCH<br>
     └── PS2<br>
         └── 파이널판타지 X 인터내셔널 [제작자]<br>
 *참고: 폴더명 매핑 규칙(FC, SFC, NDS, PS1, PS2, PSP 등)은 krpatch_config.json의 console_mapping에서 자유롭게 추가·수정할 수 있습니다.
----
+
 ## 버튼 안내
 - **전체 목록 / 최신 / 구버전 / DB없음**: 스캔된 항목을 상태별로 필터링합니다.
 - **캐시초기화**: cache_ttl(기본 1시간)이 경과한 경우 로컬 캐시를 삭제하고 최신 DB를 다시 불러옵니다.
