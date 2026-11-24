@@ -11,8 +11,10 @@
 - **로컬 DB 캐싱**: API 응답을 로컬 JSON으로 캐시(`retrodb_krpatch_cache.json`)하여 불필요한 API 호출을 줄입니다.
 
 ## 최초 설정
-최초 실행 시 현재 실행 폴더에 krpatch_config.json이 없으면 초기 환경설정 대화상자가 열립니다.
+최초 실행 시 현재 실행 폴더(Path.cwd())에 krpatch_config.json이 없으면 초기 환경설정 대화상자가 열립니다.
+
 API 발급키: RetroDB에서 발급받은 API 키 입력
+
 최상위 폴더: 콘솔별 한글패치 폴더가 모여 있는 루트 경로 선택 (예: C:\share\KRPATCH)
 
 ## 폴더 구조
