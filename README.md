@@ -16,15 +16,15 @@
 - **최상위 폴더**: 콘솔별 한글패치 폴더가 모여 있는 루트 경로 선택 (예: C:\share\KRPATCH)
 
 ## 폴더 구조
-C:\share\KRPATCH<br>
-├── Nintendo<br>
-│   ├── NDS<br>
-│   │   └── 게임 타이틀 [제작자]<br>
-│   └── GBA<br>
-│       └── 게임 타이틀<br>
-└── Sony<br>
-    └── PS2<br>
-        └── 파이널판타지 X 인터내셔널 [제작자]<br>
+`C:\share\KRPATCH<br>`
+`├── Nintendo<br>`
+`│   ├── NDS<br>`
+`│   │   └── 게임 타이틀 [제작자]`<br>
+`│   └── GBA`<br>
+`│       └── 게임 타이틀`<br>
+`└── Sony`<br>
+`    └── PS2`<br>
+`        └── 파이널판타지 X 인터내셔널 [제작자]`<br>
 *참고: 폴더명 매핑 규칙(FC, SFC, NDS, PS1, PS2, PSP 등)은 krpatch_config.json의 console_mapping에서 자유롭게 추가·수정할 수 있습니다.
 
 ## 버튼 안내
